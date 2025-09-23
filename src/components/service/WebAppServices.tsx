@@ -12,7 +12,7 @@ const webapp_development_data: DataType[] = [
     id: 'One',
   emoji: '',
     title: "Design (UI/UX & Branding)",
-    description: `Designing experiences, not just screens. Great development starts with great design. We craft user-friendly, visually appealing, and brand-aligned experiences that your audience loves. From wireframes to final UI, we ensure every interaction delights users.`,
+    description: `Designing experiences, not just screens . `,
   },
   {
     id: 'Two',

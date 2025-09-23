@@ -22,12 +22,12 @@ export default function RootLayout({
 
       <body className="dark">
         {children}
-
+{/* //code.tidio.co/0rxzl3nzg5zvdi2uyhttskr1hwdtgbm7.js */}
         <Script
-          src="//code.tidio.co/0rxzl3nzg5zvdi2uyhttskr1hwdtgbm7.js"
+          src="//code.tidio.co/ehpg3aflgbooxtkkvnweykggy6nvzg8w.js"
           strategy="afterInteractive"
         />
-        
+        {/* <script src="//code.tidio.co/ehpg3aflgbooxtkkvnweykggy6nvzg8w.js" async></script> */}
         <style>{`
           /* Removed custom cursor and special Tidio z-index overrides to
              restore default system cursor behavior and equalize chat icon
@@ -43,9 +43,9 @@ export default function RootLayout({
           .tidio-floating-button,
           .tidio-iframe-container,
           .tidio-chat-wrapper {
-            transform: translateY(-8px) !important;
+            transform: translateY(-28px) !important;
             /* fallback if transform is not desired: increase bottom offset */
-            bottom: calc( (var(--tidio-bottom, 16px)) + 8px ) !important;
+            bottom: calc( (var(--tidio-bottom, 16px)) + 28px ) !important;
           }
         `}</style>
       </body>

@@ -1,40 +1,34 @@
+'use client'
 
-"use client";
-
-import React from 'react';
+import AboutHomeFour from '@/components/about/AboutHomeFour';
+import SocialGrowthFaq from '@/components/faq/SocialGrowthFaq';
+import HeroSocialGrowth from '@/components/hero/HeroSocialGrowth';
+import SocialGrowthAreaDetails from '@/components/service/SocialGrowthAreaDetails';
 import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
-import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
-import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { getServiceBySlug } from '@/data/service_detail_data';
-import { socialCommunityGrowthFAQs } from '@/data/service_faqs';
+import React from 'react';
 
-export default function Page() {
-  const serviceData = getServiceBySlug('social-community-growth');
-  if (!serviceData) {
-    return <div>Service not found</div>;
-  }
+// export const metadata = {
+//   title: "Social & Community Growth Services - Shout Out of the Box",
+// };
+
+const index = () => {
   return (
     <Wrapper>
       <HeaderOne />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <ServiceDetailTemplate
-              title={serviceData.title}
-              tagline={serviceData.tagline}
-              image={serviceData.image}
-              intro={serviceData.intro}
-              description={serviceData.description}
-              sections={serviceData.sections}
-              cta={serviceData.cta}
-            />
-            <ServiceFAQ faqs={socialCommunityGrowthFAQs.slice(0, 6)} />
+            <HeroSocialGrowth />
+            {/* Only the main single line heading retained as requested */}
+            <AboutHomeFour />
           </main>
           <FooterOne />
         </div>
       </div>
     </Wrapper>
   );
-}
+};
+
+export default index;

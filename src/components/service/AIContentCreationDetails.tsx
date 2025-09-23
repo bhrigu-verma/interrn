@@ -9,7 +9,7 @@ const AIContentCreationDetails = () => {
     tag: "AI Innovation",
     title: "AI-Based Content Creation",
     tagline: "Future ready strategies combining human creativity with AI efficiency",
-    description: "We combine AI innovation with human creativity to scale your content faster and more efficiently. Our team produces high-quality content that engages your audience at an unprecedented speed, so you can stay ahead of the curve.",
+   description:"",
   mascotImage: "/assets/img/ai-content-mascot.png", // Use a mascot that visually represents AI content creation
     services: [
       {

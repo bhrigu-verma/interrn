@@ -12,33 +12,33 @@ interface DataType {
 const webapp_development_data: DataType[] = [
   {
     id: 'One',
-  emoji: '',
+    emoji: '',
     title: "Design (UI/UX & Branding)",
-    description: `Designing experiences, not just screens. Great development starts with great design. We craft user-friendly, visually appealing, and brand-aligned experiences that your audience loves. From wireframes to final UI, we ensure every interaction delights users.`,
-    link: "/services/design-ui-ux"
+    description: `“Designing experiences, not just screens.”`,
+    link: "/services/design-ui-ux-branding"
   },
   {
     id: 'Two',
-  emoji: '',
-    title: "Development (Coding & Technology)",
-    description: `Websites that work as hard as you do. Once designs are locked, our developers bring them to life with robust, scalable code. We ensure speed, security, and performance for every platform - from simple websites to complex applications.`,
-    link: "/services/development-coding"
+    emoji: '',
+    title: "Web Development",
+    description: `“Websites that work as hard as you do.”`,
+    link: "/services/web-development"
   },
   {
     id: 'Three',
-  emoji: '',
-    title: "Custom Solutions & Integrations",
-    description: `Technology that grows with your business. We build custom solutions that integrate seamlessly with your existing systems and scale as you grow. From automation to enterprise applications, we solve unique challenges.`,
-    link: "/services/custom-solutions"
+    emoji: '',
+    title: "App Development",
+    description: `“Apps that power your business.”`,
+    link: "/services/app-development"
   },
   {
     id: 'Four',
-  emoji: '',
-    title: "Performance & Optimization",
-    description: `Fast, secure, and always accessible. We provide complete hosting solutions, performance optimization, and ongoing maintenance to ensure your digital platforms run smoothly and deliver exceptional user experiences.`,
-    link: "/services/performance-optimization"
+    emoji: '',
+    title: "Custom Software (CRM/ERP)",
+    description: `“Tailored solutions for unique needs.”`,
+    link: "/services/custom-software"
   },
-]
+];
 
 const WebAppAreaDetails = () => {
   return (
@@ -69,13 +69,9 @@ const WebAppAreaDetails = () => {
                       <div className="cs_stroke_number">
                         <span>{item.id}</span>
                       </div>
-                      {/* emoji removed sitewide */}
                     </div>
-
                     <h6 className="cs_work_title">{item.title}</h6>
-                    <p className="cs_work_subtitle">
-                      {item.description}
-                    </p>
+                    <div className="cs_work_subtitle" style={{ whiteSpace: 'pre-line' }}>{item.description}</div>
                   </Link>
                 ))}
               </div>

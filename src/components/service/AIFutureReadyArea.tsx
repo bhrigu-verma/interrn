@@ -1,29 +1,30 @@
 import React from 'react';
+import Link from 'next/link';
 
 const ai_future_ready_data = [
   {
     id: '01',
     title: 'AI-Based Content Creation',
-    description:
-      'AI tools with human touch. Leverage AI to scale your content faster with AI voiceovers, avatars, generated blogs & creatives, text-to-image & video content, and AI-powered ad assets.',
+    quote: '“Future ready strategies combining human creativity with AI efficiency”',
+    link: '/services/ai-based-content',
   },
   {
     id: '02',
     title: 'AI Automations',
-    description:
-      'AI that works while you sleep. Automate your workflows and customer journeys with WhatsApp + CRM workflows, AI chatbots for support, real-time reporting dashboards, and marketing automations.',
+    quote: '“AI that works while you sleep.”',
+    link: '/services/ai-automations',
   },
   {
     id: '03',
     title: 'AI SEO, GEO, AEO',
-    description:
-      'Protect your brand in the AI landscape. We optimize for Google AI Overviews, Bing Copilot, ChatGPT, and all major AI search engines with structured schema, authority content, and AI-optimized strategies.',
+    quote: '“Protect your brand in the AI landscape.”',
+    link: '/services/ai-seo-geo-aeo-content-protection',
   },
   {
     id: '04',
     title: 'Content Protection',
-    description:
-      'Your invisible shield against AI misuse. We protect your valuable content with watermarking & monitoring, copyright & licensing, attribution in AI answers, and strategic publishing approaches.',
+    quote: '“Your invisible shield against AI misuse.”',
+    link: '/services/ai-seo-geo-aeo-content-protection',
   },
 ];
 
@@ -58,9 +59,15 @@ const AIFutureReadyArea: React.FC = () => {
                         <span>{item.id}</span>
                       </div>
                     </div>
-
-                    <h6 className="cs_work_title">{item.title}</h6>
-                    <p className="cs_work_subtitle">{item.description}</p>
+                    <h6 className="cs_work_title" style={{marginBottom: 8}}>
+                      <Link href={item.link} style={{ color: 'inherit', textDecoration: 'none' }}>
+                        {item.title}
+                      </Link>
+                    </h6>
+                    <div className="cs_work_subtitle" style={{fontWeight:600, marginBottom: 12}}>{item.quote}</div>
+                    <Link href={item.link} className="cs_btn cs_style_2 cs_fs_14 cs_rounded_5 cs_pl_20 cs_pr_20 cs_pt_7 cs_pb_7">
+                      Learn More
+                    </Link>
                   </div>
                 ))}
               </div>

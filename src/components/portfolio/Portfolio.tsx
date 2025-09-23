@@ -13,9 +13,36 @@ interface DataType {
   instagramUrl?: string;
   title: string;
   des: string;
+  image?: string;
+  link?: string;
 }
 
 const portfolio_data: DataType[] = [
+  // Behance Design Projects
+  {
+    id: 1001,
+    category: 'Design',
+    title: 'Nature Conservation Project',
+    des: 'UI/UX Design / Nature Conservation',
+    image: '/assets/img/save Nature_behancethumbnail2.jpg',
+    link: 'https://www.behance.net/gallery/235099543/Nature-Conservation-Project/modules/1350590769'
+  },
+  {
+    id: 1002,
+    category: 'Design',
+    title: 'Rentals Home Room Rental Platform',
+    des: 'UI/UX Design / Rentals Platform',
+    image: '/assets/img/rentals_behancethumbnail1.png',
+    link: 'https://www.behance.net/gallery/234745147/Rentals-Home-Room-Rental-Platform-Website/modules/1348294797'
+  },
+  {
+    id: 1003,
+    category: 'Design',
+    title: 'Woodleap Modern Furniture Shopping',
+    des: 'UI/UX Design / Furniture Shopping',
+    image: '/assets/img/Woodleap_behancethumbnail3.png',
+    link: 'https://www.behance.net/gallery/234744559/Woodleap-Modern-Furniture-Shopping-UIUX-Design'
+  },
   // YouTube items in Creatives & Content
   {
     id: 1,
@@ -310,7 +337,15 @@ const Portfolio = () => {
               <div key={item.id} className="col-md-4 cs_item cs_ui_design cs_development">
                 <div className="cs_portfolio cs_style_1">
                   <div className="cs_portfolio_img">
-                    {item.instagramUrl ? (
+                    {item.image && item.link ? (
+                      <a href={item.link} target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%' }}>
+                        <img
+                          src={item.image}
+                          alt={item.title}
+                          style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '15px' }}
+                        />
+                      </a>
+                    ) : item.instagramUrl ? (
                       <div className="video-thumbnail-wrapper" style={{ cursor: 'pointer' }} onClick={() => openModal(item)}>
                         <img
                           src={instaThumbs[item.instagramUrl] || "/assets/img/instagram-placeholder.jpg"}

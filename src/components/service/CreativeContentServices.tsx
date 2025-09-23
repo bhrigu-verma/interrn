@@ -5,10 +5,10 @@ const creative_services_data = [
   {
     id: 1,
     number: "01",
-  emoji: "",
+    emoji: "",
     title: "Graphic Designing",
     headline: "Designs That Define Your Brand's First Impression.",
-    description: "We build a powerful visual identity with stunning graphics that speak for your brand. From foundational logos and comprehensive brand kits to engaging social media posts and professional marketing materials, we design everything that makes your business look credible and memorable.",
+    description: "We build a powerful visual identity with stunning graphics that speak for your brand.",
     services: [
       "Logos & Brand Kits: Crafting the visual foundation of your brand for lasting impact.",
       "Social Media Creatives: Designing eye-catching posts, stories, and banners for all your platforms.",
@@ -18,10 +18,10 @@ const creative_services_data = [
   {
     id: 2,
     number: "02",
-  emoji: "",
+    emoji: "",
     title: "Video Editing & Motion Graphics",
     headline: "A Story That Moves Your Audience.",
-    description: "We bring your brand's narrative to life with professional video editing and dynamic motion graphics. We transform raw footage into cinematic stories that captivate, engage, and convert, whether it's a short reel for social media or a polished corporate advertisement.",
+    description: "We bring your brand's narrative to life with professional video editing and dynamic motion graphics.",
     services: [
       "Reels & Shorts: Producing trendy, fast-paced videos optimized for maximum social media reach.",
       "2D/3D & Logo Animations: Adding a layer of professionalism with dynamic logo animations and graphics.",
@@ -31,10 +31,10 @@ const creative_services_data = [
   {
     id: 3,
     number: "03",
-  emoji: "",
+    emoji: "",
     title: "Copywriting",
-    headline: "From Captions to Campaigns-We Write It All.",
-    description: "Our words are crafted to connect, sell, and inspire action. We develop a consistent and compelling brand voice across all your communications, from catchy social media captions to persuasive ad campaigns and value-driven website content.",
+    headline: "From Captions to Campaigns.",
+    description: "Our words are crafted to connect, sell, and inspire action.",
     services: [
       "Website Copy & Blogs: Writing SEO-friendly content that informs your audience and drives conversions.",
       "Ad & Sales Copy: Crafting persuasive copy for digital ads and sales funnels that gets results.",
@@ -82,15 +82,12 @@ const CreativeContentServices = () => {
                       </h3>
                     </div>
                   </div>
-                  
                   <h4 className="cs_service_title cs_fs_18 cs_mb_10" style={{ color: 'var(--accent-color)' }}>
                     {service.headline}
                   </h4>
-                  
                   <p className="cs_service_subtitle cs_fs_14 cs_lh_base m-0 cs_mb_15">
                     {service.description}
                   </p>
-                  
                   <div className="cs_service_features">
                     {service.services.map((item, idx) => (
                       <div key={idx} className="cs_feature_item cs_mb_10">
@@ -109,18 +106,16 @@ const CreativeContentServices = () => {
               </div>
             ))}
           </div>
-          
+          {/* Only keep the 'Want to know more?' text and button below */}
           <div className="row">
             <div className="col-lg-12 text-center">
               <div className="cs_height_40 cs_height_lg_30"></div>
-              <div className="cs_hero_btn_wrap d-inline-flex cs_column_gap_15 cs_row_gap_15 cs_transition_5">
-                <Link href="/portfolio" className="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden">
-                  <span>View Our Creative Portfolio</span>
-                </Link>
-                <Link href="/contact" className="cs_btn cs_style_2 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden">
-                  <span>Start Your Project Today</span>
-                </Link>
-              </div>
+              <h3 className="cs_section_subtitle text-uppercase cs_accent_color cs_semibold m-0 cs_accent_color cs_fs_28" style={{marginBottom: 18}}>
+                Want to know more?
+              </h3>
+              <Link href="/contact" className="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden">
+                <span>Contact Our Creative Team</span>
+              </Link>
             </div>
           </div>
         </div>
