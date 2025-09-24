@@ -14,29 +14,36 @@ const performance_growth_data: DataType[] = [
     id: 'One',
     emoji: '',
     title: "Performance Marketing",
-    description: `We put your brand in front of the right audience and drive them to take action. Our data-driven ad strategies ensure that every click counts, turning your ad spend into measurable revenue.`,
+    description: `Data-driven campaigns that deliver revenue, not just reach`,
     link: '/services/performance-marketing'
   },
   {
     id: 'Two',
     emoji: '',
-    title: "AI-Based Content & Automation",
-    description: `AI tools with human touch. Leverage AI voiceovers, avatars, ad creatives, blog generation, and automation workflows that scale your content and save time while you sleep.`,
-    link: '/services/ai-seo-geo-aeo-content-protection'
+    title: "CRO & Analytics Hub",
+    description: `A structured approach to turn traffic into sales.`,
+    link: '/services/cro-analytics'
   },
   {
     id: 'Three',
     emoji: '',
-    title: "CRO & Analytics Hub",
-    description: `Conversions aren't luck - they're strategy. Apply proven methodologies to analyze funnels, run controlled experiments, and deliver measurable improvements to your KPIs.`,
-    link: '/services/cro-analytics'
+    title: "WhatsApp Marketing",
+    description: `Turn every chat into an opportunity and grow your business effortlessly.`,
+    link: '/services/whatsapp-marketing'
   },
   {
     id: 'Four',
     emoji: '',
-    title: "Web & App Development",
-    description: `Websites that work as hard as you do. Design and develop fast, scalable, and growth-optimized websites, apps, and CRMs with custom solutions that perform.`,
-    link: '/services/web-app-development'
+    title: "Influencer Marketing & PR",
+    description: `Collaborations that click and PR that puts you on the map`,
+    link: '/services/influencer-marketing'
+  },
+  {
+    id: 'Five',
+    emoji: '',
+    title: "UGC & Creator Commerce",
+    description: `Turn every purchase into content that builds your brand`,
+    link: '/services/ugc-creator-commerce'
   }
 ];
 
@@ -60,7 +67,7 @@ const PerformanceGrowthAreaDetails = () => {
             <div className="cs_work cs_work_1">
               <div className="cs_card_work cs_style_1">
                 {performance_growth_data.map((item, i) => (
-                  <Link href={item.link} key={i} className="cs_card cs_mt_nthchild_0 anim_div_ShowLeftSide" style={{ textDecoration: 'none', color: 'inherit' }}>
+                  <div key={i} className="cs_card cs_mt_nthchild_0 anim_div_ShowLeftSide" style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="cs_card cs_style_1">
                       <div className="cs_posagation">
                         <div className="cs_work_style_1"></div>
@@ -79,11 +86,17 @@ const PerformanceGrowthAreaDetails = () => {
                       </div>
                     </div>
 
-                    <h6 className="cs_work_title">{item.title}</h6>
+                    {i < 4 ? (
+                      <h6 className="cs_work_title">
+                        <Link href={item.link} style={{ color: 'inherit', textDecoration: 'none' }}>{item.title}</Link>
+                      </h6>
+                    ) : (
+                      <h6 className="cs_work_title">{item.title}</h6>
+                    )}
                     <p className="cs_work_subtitle">
                       {item.description}
                     </p>
-                  </Link>
+                  </div>
                 ))}
               </div>
             </div>

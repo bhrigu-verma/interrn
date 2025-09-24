@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import Image from 'next/image';
 
@@ -9,13 +10,8 @@ interface DataType {
 
 const hero_ai_future_ready: DataType = {
   title: "AI & Future-Ready Solutions",
-  description: `Step into the future with our comprehensive AI-powered solutions. We leverage cutting-edge artificial intelligence to transform your business operations, content creation, and customer experiences. From AI-generated content and smart automations to future-proofing your brand for AI search engines, we ensure your business stays ahead in the rapidly evolving digital landscape.`,
-  features: [
-    `🤖 AI-based content creation with human touch for scalable results`,
-    `⚡ Smart automations that work 24/7 to optimize your workflows`,
-    `🔍 AI SEO, GEO, AEO to protect your brand in the AI landscape`,
-    `🛡️ Content protection and ownership in the age of AI`,
-  ]
+  description: `The future of marketing is here. We harness the power of AI to automate your workflows, scale your content creation, and secure your brand’s presence across the next generation of search engines and platforms. We’re your partner in innovation, ensuring you’re not just ready for the future but you’re leading it.`,
+  features: [] // No features as per new requirements
 }
 
 const { title, description, features } = hero_ai_future_ready
@@ -23,7 +19,19 @@ const { title, description, features } = hero_ai_future_ready
 const HeroAIFutureReady = () => {
   return (
     <>
-      <div className="cs_height_219 cs_height_lg_120"></div> 
+      <div className="cs_height_219 cs_height_lg_120"></div>
+      {/* Back Button - styled and positioned like dedicated service pages */}
+      <div style={{ position: 'absolute', top: '5.5rem', left: '2rem', zIndex: 100 }}>
+        <button
+          style={{
+            display: 'flex', alignItems: 'center', background: 'rgba(243, 60, 82, 0.12)', color: '#fff', border: '1px solid #F33C52', borderRadius: '30px', padding: '0.5rem 1.2rem', fontSize: '1.1rem', fontWeight: 600, cursor: 'pointer', transition: 'background 0.2s, color 0.2s, border 0.2s', boxShadow: '0 2px 8px rgba(243, 60, 82, 0.08)'
+          }}
+          onClick={() => window.history.length > 1 ? window.history.back() : window.location.href = '/services'}
+          className="service-back-btn"
+        >
+          <span style={{ fontSize: '1.3rem', marginRight: '0.5rem' }}>←</span> Back
+        </button>
+      </div>
       <section>
         <div className="container">
           <div className="cs_section_heading cs_style_1 cs_type_1">
@@ -43,11 +51,7 @@ const HeroAIFutureReady = () => {
             <div className="cs_service_details_text">
               <div className="cs_service_details_p">
                 <p className="anim_text">{description}</p>
-                <ul className="anim_div_ShowDowns">
-                  {features.map((item, i) => (
-                    <li key={i}>{item}</li>                    
-                  ))} 
-                </ul>
+                {/* No features/points as per new requirements */}
               </div>
             </div>
           </div>

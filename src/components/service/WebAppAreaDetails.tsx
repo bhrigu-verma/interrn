@@ -24,20 +24,6 @@ const webapp_development_data: DataType[] = [
     description: `“Websites that work as hard as you do.”`,
     link: "/services/web-development"
   },
-  {
-    id: 'Three',
-    emoji: '',
-    title: "App Development",
-    description: `“Apps that power your business.”`,
-    link: "/services/app-development"
-  },
-  {
-    id: 'Four',
-    emoji: '',
-    title: "Custom Software (CRM/ERP)",
-    description: `“Tailored solutions for unique needs.”`,
-    link: "/services/custom-software"
-  },
 ];
 
 const WebAppAreaDetails = () => {

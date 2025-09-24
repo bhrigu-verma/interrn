@@ -23,7 +23,6 @@ const index = () => {
           <main>
             <HeroAIFutureReady />
             <AIFutureReadyArea />
-            <DetailsBanner />
             {/* <AIFutureReadyFaq /> */}
             <AboutHomeFour />
           </main>

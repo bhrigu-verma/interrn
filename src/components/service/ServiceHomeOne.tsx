@@ -34,7 +34,7 @@ const service_data: DataType[] = [
     id: 1,
     title: `Creative & Content`,
     des: `1. Graphic Designing<br/>
-2. Video Editing & Motion Graphics<br/>
+2. Video Editing <br/>
 3. Copywriting<br/>
 `,
     link: `/services/creative-content`
@@ -43,7 +43,7 @@ const service_data: DataType[] = [
     id: 2,
     title: `Social & Community Growth`,
     des: `1. Social Media Management<br/>
-2. Influencer Marketing & PR<br/>
+2. Influencer Marketing and PR<br/>
 3. UGC & Creator Commerce`,
     link: `/services/social-community-growth`
   },

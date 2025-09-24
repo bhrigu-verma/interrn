@@ -17,7 +17,7 @@ const FloatingContactButton = () => {
 
   const handleGmail = () => {
     // Your actual email
-    const email = 'shoutotb@gmail.com';
+  const email = 'service@shoutotb.com';
     const subject = 'Inquiry about your services';
     const body = 'Hello,\n\nI would like to know more about your services.\n\nBest regards';
     const gmailUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;

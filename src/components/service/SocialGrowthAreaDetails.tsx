@@ -11,32 +11,25 @@ interface DataType {
 
 const social_growth_data: DataType[] = [
   {
-  id: 'One',
-  emoji: '',
+    id: 'One',
+    emoji: '',
     title: "Social Media Management",
-    description: `Social media is the face of your brand & we make sure it shines.`,
+    description: `We manage, you grow with smart strategy, and measurable growth`,
     link: '/services/social-media-management'
   },
   {
-  id: 'Two',
-  emoji: '',
+    id: 'Two',
+    emoji: '',
     title: "Influencer Marketing & PR",
-    description: `PR that puts you on the map.`,
+    description: `Collaborations that click & PR that puts you on the map`,
     link: '/services/influencer-marketing-pr'
   },
   {
-  id: 'Three',
-  emoji: '',
-    title: "UGC & Creator Commerce",
-    description: `Turn customers into brand creators.`,
+    id: 'Three',
+    emoji: '',
+    title: "UCG & Creator Commerce",
+    description: `Turn every purchase into content that builds your brand`,
     link: '/services/ugc-creator-commerce'
-  },
-  {
-  id: 'Four',
-  emoji: '',
-    title: "Community Building",
-    description: `We create strategies that transform followers into engaged community members.`,
-    link: '/services/social-community-growth'
   }
 ];
 

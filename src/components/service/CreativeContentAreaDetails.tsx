@@ -20,7 +20,7 @@ const creative_service_data: DataType[] = [
   {
     id: 'Two',
     emoji: '',
-    title: "Video Editing & Motion Graphics",
+    title: "Video Editing",
     description: `Bring your stories to life with professional video content.`,
     link: '/services/video-editing'
   },
@@ -31,13 +31,7 @@ const creative_service_data: DataType[] = [
     description: `From captions to campaigns - we write it all. Words that connect, sell, and inspire.`,
     link: '/services/copywriting'
    },
-   {
-     id: 'Four',
-     emoji: '',
-     title: "Strategic Implementation",
-     description: `We ensure your creative content aligns with your business goals and reaches the right audience through strategic planning and execution.`,
-     link: '/services/creative-content'
-   }
+  // Strategic Implementation removed as per request
 ];
 
 const CreativeContentAreaDetails: React.FC = () => {

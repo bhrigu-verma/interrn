@@ -51,6 +51,35 @@ const CreativeContentServices = () => {
         <div className="cs_shape_2"></div>
         <div className="cs_height_150 cs_height_lg_60"></div>
         <div className="container">
+          
+          {/* Back Button Section */}
+          <div className="row">
+            <div className="col-lg-12">
+              <div style={{ marginBottom: "30px" }}>
+                <button
+                  onClick={() =>
+                    window.history.length > 1
+                      ? window.history.back()
+                      : (window.location.href = '/services')
+                  }
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "8px",
+                    background: "transparent",
+                    border: "none",
+                    color: "var(--accent-color)",
+                    fontSize: "1rem",
+                    fontWeight: 600,
+                    cursor: "pointer"
+                  }}
+                >
+                  <span style={{ fontSize: "1.2rem" }}>←</span> Back
+                </button>
+              </div>
+            </div>
+          </div>
+
           <div className="row">
             <div className="col-lg-5">
               <div className="cs_section_heading cs_style_1">
@@ -71,9 +100,7 @@ const CreativeContentServices = () => {
               <div key={service.id} className="col-lg-4 col-md-6">
                 <div className="cs_service cs_style_1 cs_pt_25 cs_pl_25 cs_pr_25 cs_pb_15 bg-white cs_transition_4 shadow cs_mb_25">
                   <div className="cs_service_iconbox d-flex align-items-center cs_mb_20">
-                    <div className="cs_service_icon d-flex align-items-center justify-content-center cs_rounded_5 cs_mr_15 cs_transition_4 flex-none bg-accent">
-                      {/* emoji removed sitewide */}
-                    </div>
+                    <div className="cs_service_icon d-flex align-items-center justify-content-center cs_rounded_5 cs_mr_15 cs_transition_4 flex-none bg-accent"></div>
                     <div>
                       <h3 className="cs_lh_base cs_fs_20 cs_fs_lg_18 m-0">
                         <Link href="/service-details" className="inline-block">
@@ -91,11 +118,14 @@ const CreativeContentServices = () => {
                   <div className="cs_service_features">
                     {service.services.map((item, idx) => (
                       <div key={idx} className="cs_feature_item cs_mb_10">
-                        <p className="cs_fs_14 cs_lh_base m-0" style={{ 
-                          fontSize: '0.875rem',
-                          lineHeight: '1.4',
-                          color: '#666'
-                        }}>
+                        <p
+                          className="cs_fs_14 cs_lh_base m-0"
+                          style={{
+                            fontSize: '0.875rem',
+                            lineHeight: '1.4',
+                            color: '#666'
+                          }}
+                        >
                           <strong>{item.split(':')[0]}:</strong> {item.split(':')[1]}
                         </p>
                       </div>
@@ -106,14 +136,21 @@ const CreativeContentServices = () => {
               </div>
             ))}
           </div>
-          {/* Only keep the 'Want to know more?' text and button below */}
+
+          {/* CTA Section */}
           <div className="row">
             <div className="col-lg-12 text-center">
               <div className="cs_height_40 cs_height_lg_30"></div>
-              <h3 className="cs_section_subtitle text-uppercase cs_accent_color cs_semibold m-0 cs_accent_color cs_fs_28" style={{marginBottom: 18}}>
+              <h3
+                className="cs_section_subtitle text-uppercase cs_accent_color cs_semibold m-0 cs_accent_color cs_fs_28"
+                style={{ marginBottom: 18 }}
+              >
                 Want to know more?
               </h3>
-              <Link href="/contact" className="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden">
+              <Link
+                href="/contact"
+                className="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden"
+              >
                 <span>Contact Our Creative Team</span>
               </Link>
             </div>

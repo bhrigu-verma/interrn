@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import Image from 'next/image';
 import banner_img from "../../../public/assets/img/Perfornmence and growth.png";

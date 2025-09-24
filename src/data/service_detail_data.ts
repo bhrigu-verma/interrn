@@ -20,7 +20,7 @@ export const serviceDetailData: ServiceDetail[] = [
     title: 'Social & Community Growth',
     tagline: 'Grow your brand and community with authentic engagement.',
     image: '/assets/img/Social & Community Growth.png',
-    intro: 'We help you build a thriving online presence with a blend of social media management, influencer marketing, and UGC strategies. Our approach combines authentic engagement with proven growth tactics to foster a loyal community around your brand.',
+  intro: "We manage, you grow. We handle every aspect of your social presence, so you can focus on your business while we build your brand's authority. This is about more than just posting; it's about strategic growth, audience engagement, and consistent results.",
     description: 'Our Social & Community Growth bundle includes Social Media Management, Influencer Marketing & PR, and UGC & Creator Commerce. Explore each service to see how we can help you grow.',
     sections: [
       {

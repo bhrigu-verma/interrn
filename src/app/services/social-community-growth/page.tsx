@@ -21,7 +21,7 @@ const index = () => {
         <div id="smooth-content">
           <main>
             <HeroSocialGrowth />
-            {/* Only the main single line heading retained as requested */}
+            <SocialGrowthAreaDetails />
             <AboutHomeFour />
           </main>
           <FooterOne />

@@ -65,6 +65,15 @@ const portfolio_data: DataType[] = [
     title: "Creative Video Campaign 3",
     des: "Video Marketing / Brand Content"
   },
+  // Graphic Design Behance Image
+  {
+    id: 1004,
+    category: 'Creatives & Content',
+    title: 'Graphic Design Portfolio',
+    des: 'Graphic Design Showcase',
+  image: '/assets/img/graphicdesign_port.png',
+    link: 'https://www.behance.net/shoutotb'
+  },
   // Instagram items in Motion Graphics
   {
     id: 4,

@@ -11,7 +11,7 @@ interface ServiceItem {
 
 const services: ServiceItem[] = [
   { id: 1, title: 'AI-Based Content Creation', image: '/assets/img/copywriter1.png' },
-  { id: 2, title: 'Social & Community Growth', image: '/assets/img/Social & Community Growth.png' },
+  { id: 2, title: 'Social Media Management', image: '/assets/img/Social & Community Growth.png' },
   { id: 3, title: 'Performance Marketing', image: '/assets/img/performancemarketing.png' },
   { id: 4, title: 'WhatsApp Marketing', image: '/assets/img/Whatsapp marketer (2).png' },
   { id: 5, title: 'AI & Future-Ready Solutions', image: '/assets/img/aiautomation.png' },

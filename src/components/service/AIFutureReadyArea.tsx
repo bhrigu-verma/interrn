@@ -22,7 +22,7 @@ const ai_future_ready_data = [
   },
   {
     id: '04',
-    title: 'Content Protection',
+    title: 'Content Ownership',
     quote: '“Your invisible shield against AI misuse.”',
     link: '/services/ai-seo-geo-aeo-content-protection',
   },
@@ -48,7 +48,7 @@ const AIFutureReadyArea: React.FC = () => {
           <div>
             <div className="cs_work cs_work_1">
               <div className="cs_card_work cs_style_1">
-                {ai_future_ready_data.map((item) => (
+                {ai_future_ready_data.map((item, i) => (
                   <div key={item.id} className="cs_card cs_mt_nthchild_0 anim_div_ShowLeftSide">
                     <div className="cs_card cs_style_1">
                       <div className="cs_posagation">
@@ -60,14 +60,9 @@ const AIFutureReadyArea: React.FC = () => {
                       </div>
                     </div>
                     <h6 className="cs_work_title" style={{marginBottom: 8}}>
-                      <Link href={item.link} style={{ color: 'inherit', textDecoration: 'none' }}>
-                        {item.title}
-                      </Link>
+                      <Link href={item.link} style={{ color: 'inherit', textDecoration: 'none' }}>{item.title}</Link>
                     </h6>
                     <div className="cs_work_subtitle" style={{fontWeight:600, marginBottom: 12}}>{item.quote}</div>
-                    <Link href={item.link} className="cs_btn cs_style_2 cs_fs_14 cs_rounded_5 cs_pl_20 cs_pr_20 cs_pt_7 cs_pb_7">
-                      Learn More
-                    </Link>
                   </div>
                 ))}
               </div>
