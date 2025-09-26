@@ -68,13 +68,13 @@ const ServiceDetailTemplate: React.FC<ServiceDetailProps> = ({
                     // Double mascot size for all dedicated service pages (480px), except WhatsApp/ONDC (320px)
                     const imgLower = (image || '').toLowerCase();
                     const isSmallMascot = imgLower.includes('whatsapp') || imgLower.includes('ondc');
-                    const size = isSmallMascot ? 320 : 480;
+                      const size = isSmallMascot ? 400 : 600;
                     return (
                       <Image
                         src={image}
                         alt={title}
-                        width={size}
-                        height={size}
+                          width={size}
+                          height={size}
                         className="service-image"
                         style={{ maxHeight: `${size}px`, width: 'auto', objectFit: 'contain' }}
                       />

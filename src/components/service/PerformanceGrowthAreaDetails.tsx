@@ -11,35 +11,28 @@ interface DataType {
 
 const performance_growth_data: DataType[] = [
   {
-    id: 'One',
-    emoji: '',
-    title: "Performance Marketing",
-    description: `Data-driven campaigns that deliver revenue, not just reach`,
-    link: '/services/performance-marketing'
-  },
-  {
-    id: 'Two',
+    id: '1',
     emoji: '',
     title: "CRO & Analytics Hub",
     description: `A structured approach to turn traffic into sales.`,
     link: '/services/cro-analytics'
   },
   {
-    id: 'Three',
+    id: '2',
     emoji: '',
     title: "WhatsApp Marketing",
     description: `Turn every chat into an opportunity and grow your business effortlessly.`,
     link: '/services/whatsapp-marketing'
   },
   {
-    id: 'Four',
+    id: '3',
     emoji: '',
     title: "Influencer Marketing & PR",
     description: `Collaborations that click and PR that puts you on the map`,
     link: '/services/influencer-marketing'
   },
   {
-    id: 'Five',
+    id: '4',
     emoji: '',
     title: "UGC & Creator Commerce",
     description: `Turn every purchase into content that builds your brand`,
@@ -50,6 +43,18 @@ const performance_growth_data: DataType[] = [
 const PerformanceGrowthAreaDetails = () => {
   return (
     <>
+      {/* Back Button - styled and positioned like dedicated service pages */}
+      <div style={{ position: 'absolute', top: '5.5rem', left: '2rem', zIndex: 100 }}>
+        <button
+          style={{
+            display: 'flex', alignItems: 'center', background: 'rgba(243, 60, 82, 0.12)', color: '#fff', border: '1px solid #F33C52', borderRadius: '30px', padding: '0.5rem 1.2rem', fontSize: '1.1rem', fontWeight: 600, cursor: 'pointer', transition: 'background 0.2s, color 0.2s, border 0.2s', boxShadow: '0 2px 8px rgba(243, 60, 82, 0.08)'
+          }}
+          onClick={() => window.history.length > 1 ? window.history.back() : window.location.href = '/services'}
+          className="service-back-btn"
+        >
+          <span style={{ fontSize: '1.3rem', marginRight: '0.5rem' }}>←</span> Back
+        </button>
+      </div>
       <div className="cs_height_150 cs_height_lg_50"></div>
       <section>
         <div className="container">

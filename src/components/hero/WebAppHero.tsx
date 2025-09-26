@@ -9,16 +9,13 @@ interface DataType {
 }
 
 const hero_webapp_development: DataType = {
-  title: " E-Commerce operations",
-  description: ` Retail ads that deliver real sales.
- Expand your e-commerce reach with next-gen retail marketing.
-Retail ads that deliver real sales. We expand your e-commerce reach with next-gen retail marketing, helping you tap into new marketplaces and drive measurable growth.
-`,
+  title: "Web & App Development",
+  description: `Websites and apps that work as hard as you do. We design and develop fast, scalable, and secure digital platforms—tailored for your business growth. From e-commerce to custom solutions, our team delivers technology that performs and delights.`,
   features: [
-    `🎨 Design (UI/UX & Branding) - Designing experiences, not just screens`,
-    `💻 Development (Coding & Technology) - Websites that work as hard as you do`,
-    `🚀 Custom Solutions & Integrations - Technology that grows with your business`,
-    `⚡ Performance & Optimization - Fast, secure, and scalable platforms`,
+    `🎨 UI/UX & Branding – Designing experiences, not just screens`,
+    `💻 Web & App Development – Robust, scalable, and secure code for every platform`,
+    `� Custom Integrations – Seamless connections with your business tools`,
+    `⚡ Performance & Optimization – Fast, reliable, and always accessible`,
   ]
 }
 
@@ -54,10 +51,10 @@ const WebAppHero = () => {
             <div className="cs_service_details_img">
               <div className="cs_style_img" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <Image 
-                  src="/assets/img/ondcc.png" 
+                  src="/assets/img/Web Developer.png" 
                   width={240} 
                   height={240} 
-                  alt="ondc_mascot"
+                  alt="web_development_mascot"
                   style={{ maxHeight: '240px', width: 'auto', objectFit: 'contain', borderRadius: 16 }}
                 />
               </div>

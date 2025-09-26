@@ -47,13 +47,15 @@ const HeroSocialGrowth = () => {
             </div>
           </div>
           <div className="cs_height_100 cs_height_lg_60"></div>
-          <div className="cs_service_details">
-            <div className="cs_service_details_img">
-              <div className="cs_style_img" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <div className="cs_service_details" style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
+            {/* Mascot on the left - 50% */}
+            <div className="cs_service_details_img" style={{ flex: '1 1 0%', maxWidth: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <div className="cs_style_img">
                 <Image src={banner_img} alt="social_community_growth_banner" style={{ maxHeight: '300px', width: 'auto', objectFit: 'contain' }} />
               </div>
             </div>
-            <div className="cs_service_details_text">
+            {/* Text on the right - 50% */}
+            <div className="cs_service_details_text" style={{ flex: '1 1 0%', maxWidth: '50%' }}>
               <div className="cs_service_details_p">
                 <p className="anim_text">{description}</p>
                 <ul className="anim_div_ShowDowns">
@@ -74,7 +76,7 @@ const HeroSocialGrowth = () => {
             </div>
           </div>
         </div>
-      </section> 
+      </section>
     </>
   );
 };

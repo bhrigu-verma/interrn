@@ -245,7 +245,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'social-media-management',
     title: 'Social Media Management',
-    tagline: 'Social media is the face of your brand & we make sure it shines.',
+    tagline: 'We manage, You grow',
     image: '/assets/img/Social%20media%20manager.png',
     intro: 'We manage every aspect of your social presence so you can focus on growth while we build your brand\'s authority.',
     description: 'This is about more than just posting; it\'s about strategic growth, audience engagement, and consistent results.',

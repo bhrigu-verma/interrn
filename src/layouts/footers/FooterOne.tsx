@@ -18,7 +18,7 @@ interface DataType {
 }
 
 const footer_data: DataType = {
-  email: `service@shoutotb.com`,
+  email: `services@shoutotb.com`,
   phone: `+91 9752000546`,
   location: `A-17 Pallavi Nagar, Bawadiya Kalan, Bhopal - 462026, M.P. India`,
   footer_info: `Welcome to Shout OTB - Your trusted digital marketing agency. We specialize in helping businesses succeed online with comprehensive digital solutions from strategy to execution.`,
