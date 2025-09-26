@@ -9,7 +9,7 @@ const ContentOwnershipDetails = () => {
     tag: "Content Protection",
     title: "Content Ownership",
     tagline: "Your invisible shield against AI misuse",
-    description: "Your content is valuable. In the AI era, it can be reused without credit or visibility, eroding your brand's authority. We make sure that doesn't happen. Our service acts as a proactive shield, protecting your brand's content and ensuring it is attributed and recognized in the new digital landscape.",
+    description: "Your content is valuable. In the AI era, it can be reused without credit or visibility, eroding your brand's authority. We make sure that doesn't happen.",
   mascotImage: "/assets/img/copyright.png", // Mascot for Content Protection
     services: [
       {

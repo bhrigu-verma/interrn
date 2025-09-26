@@ -14,7 +14,7 @@ export default function SocialMediaManagementPage() {
 					<main>
 						<ServiceDetailTemplate
 							title="Social Media Management"
-							tagline="Build communities, not just followers."
+							tagline="Bcccccccccccccccild communities, not just followers."
 							image="/assets/img/socialmedia.png"
 							intro="Strategic posting, community management and paid amplification to grow your brand organically and via performance channels."
 							description="We craft social strategies that combine creative storytelling with data-driven distribution to grow meaningful audiences and measurable business outcomes."

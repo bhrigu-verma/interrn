@@ -16,10 +16,10 @@ export interface ServiceDetail {
 export const serviceDetailData: ServiceDetail[] = [
   // Group summary for Social & Community Growth
   {
-    id: 'social-community-growth',
-    title: 'Social & Community Growth',
+    id: 'social-media-management',
+    title: 'Social Media Management',
     tagline: 'Grow your brand and community with authentic engagement.',
-    image: '/assets/img/Social & Community Growth.png',
+  image: '/assets/img/Perfornmence and growth.png',
   intro: "We manage, you grow. We handle every aspect of your social presence, so you can focus on your business while we build your brand's authority. This is about more than just posting; it's about strategic growth, audience engagement, and consistent results.",
     description: 'Our Social & Community Growth bundle includes Social Media Management, Influencer Marketing & PR, and UGC & Creator Commerce. Explore each service to see how we can help you grow.',
     sections: [
@@ -33,35 +33,65 @@ export const serviceDetailData: ServiceDetail[] = [
       }
     ],
     cta: 'Let’s Grow Your Community!',
-    faqs: require('./service_faqs').socialCommunityGrowthFAQs
+    faqs: [
+      {
+        question: "How do you find the right influencers for my brand?",
+        answer: "We use a strategic, data-driven approach to find influencers who have an authentic connection with your target audience. We focus on relevance and engagement, not just follower count, to ensure your collaborations deliver real results."
+      },
+      {
+        question: "Can you guarantee a specific number of media mentions?",
+        answer: "While we can’t guarantee a specific number of placements, we build strong relationships with media outlets and craft compelling pitches to maximize your chances of securing coverage and brand visibility."
+      },
+      {
+        question: "What is the difference between a micro-influencer and a celebrity influencer?",
+        answer: "Micro-influencers have smaller but highly engaged and niche audiences, making them excellent for building authentic trust and driving conversions. Celebrity influencers have massive reach and are better for broad brand awareness campaigns."
+      }
+    ]
   },
-  // Group summary for AI & Future-Ready Solutions
+  // Content Ownership (replaces AI & Future-Ready Solutions)
   {
-    id: 'ai-future-ready',
-    title: 'AI & Future-Ready Solutions',
-    tagline: 'AI tools with a human touch for tomorrow’s growth.',
-    image: '/assets/img/AI Developer.png',
-    intro: 'Stay ahead with our AI-powered solutions: from content creation to automations, search optimization, and digital protection. We blend cutting-edge AI with human creativity to future-proof your brand.',
-    description: 'Our AI & Future-Ready Solutions bundle includes AI-Based Content Creation, AI Automations, AI SEO/GEO/AEO, and Content Ownership & Protection. Explore each service to see how we can help you scale and protect your brand.',
+    id: 'content-ownership',
+    title: 'Content Ownership',
+    tagline: 'Your invisible shield against AI misuse',
+    image: '/assets/img/aiautomation.png',
+    intro: 'Your content is valuable. In the AI era, it can be reused without credit or visibility, eroding your brand\'s authority. We make sure that doesn\'t happen. Our service acts as a proactive shield, protecting your brand\'s content and ensuring it is attributed and recognized in the new digital landscape.',
+    description: 'We protect your content and brand authority in the AI era. Our service ensures your digital assets are watermarked, monitored, and attributed, while providing copyright, licensing, and publishing strategies to maximize visibility and minimize misuse.',
     sections: [
       {
-        title: 'Our AI Services',
+        title: 'Watermarking & Monitoring',
         content: [
-          'AI-Based Content Creation: Scalable, high-quality content with AI voiceovers, avatars, and creatives.',
-          'AI Automations: Streamline operations and customer journeys with smart automations.',
-          'AI SEO, GEO, AEO: Optimize for Google, Bing, ChatGPT, and all major AI search engines.',
-          'Content Ownership & Protection: Safeguard your digital assets and ensure proper attribution.'
+          'We implement both visible and invisible watermarks on your digital assets.',
+          'Monitoring tools track where your content is being used, alerting you to potential misuse so you can take action.'
+        ]
+      },
+      {
+        title: 'Copyright & Licensing',
+        content: [
+          'Guidance on copyright best practices.',
+          'Help with licensing strategies to ensure your content is legally protected and its usage is controlled.'
+        ]
+      },
+      {
+        title: 'Attribution in AI Answers',
+        content: [
+          'We use specific publishing and structuring strategies to ensure that when an AI uses your content in its response, it provides proper attribution, driving traffic and authority back to your brand.'
+        ]
+      },
+      {
+        title: 'Publishing Strategies',
+        content: [
+          'Advice on the best platforms and methods for publishing your content to maximize its visibility while minimizing the risk of unauthorized use by AI models.'
         ]
       }
     ],
-    cta: 'Let’s Future-Proof Your Brand!',
-    faqs: require('./service_faqs').aiFutureReadyFAQs
+    cta: 'Protect Your Content. Protect Your Brand.',
+    faqs: require('./service_faqs').contentOwnershipFAQs
   },
-  // ONDC & Retail Media Ops
+  // ONDC & Retail Media Operations
   {
     id: 'ondc-retail-media-ops',
-    title: 'ONDC & Retail Media Ops',
-    tagline: 'Visibility + sales on every platform.',
+    title: 'ONDC & Retail Media Operations',
+    tagline: 'Visibility + sales on every platform',
     image: '/assets/img/ONDC.png',
     intro: 'Expand e‑commerce distribution and win more shelves. We manage listings, ads, and ops across marketplaces—including ONDC—so products stay discoverable and in‑stock.',
     description: 'Maximize your e-commerce presence across multiple platforms with comprehensive marketplace management and retail media optimization strategies.',
@@ -164,7 +194,7 @@ export const serviceDetailData: ServiceDetail[] = [
   },
   {
     id: 'video-editing',
-    title: 'Video Editing & Motion Graphics',
+    title: 'Video Editing',
     tagline: 'Story that moves your audience.',
     image: '/assets/img/Video editing.png',
     intro: 'We bring your stories to life with professional video content that captivates and moves your audience. From quick social clips to corporate films, we make sure your message is seen and remembered.',
@@ -201,7 +231,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'copywriting',
     title: 'Copywriting',
-    tagline: 'Words are powerful, but the right words are what turn visitors into customers.',
+    tagline: 'From captions to campaigns—we write it all ',
     image: '/assets/img/copyright.png',
     intro: 'We craft compelling copy that informs, connects, and sells. From homepages to emails, we write with clarity and purpose to build your brand and drive business.',
     description: 'We create compelling content that triggers emotions, drives actions, and positions your brand as an authority.',

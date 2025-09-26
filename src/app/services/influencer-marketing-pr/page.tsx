@@ -16,7 +16,7 @@ export default function Page() {
               title="Influencer Marketing & PR"
               tagline="Collaborations that click."
               image="/assets/img/Influencer Marketer.png"
-              intro="Build trust with the right creators and credible features. We run product seeding, paid collabs, and earned media for durable brand lift."
+              intro=" In a world full of advertising noise, we help you build trust and credibility by partnering with the right voice"
               description="Connect with your audience through strategic influencer partnerships and PR initiatives that build authentic brand awareness and trust."
               sections={[
                 {

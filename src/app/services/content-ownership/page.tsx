@@ -6,10 +6,11 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
 import { getServiceBySlug } from '@/data/service_detail_data';
-import { aiFutureReadyFAQs } from '@/data/service_faqs';
+import { contentOwnershipFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   const serviceData = getServiceBySlug('content-ownership');
+
 
   if (!serviceData) {
     return <div>Service not found</div>;
@@ -30,7 +31,7 @@ export default function Page() {
               sections={serviceData.sections}
               cta={serviceData.cta}
             />
-            <ServiceFAQ faqs={aiFutureReadyFAQs.slice(6, 8)} />
+            <ServiceFAQ faqs={contentOwnershipFAQs} />
           </main>
           <FooterOne />
         </div>

@@ -7,13 +7,13 @@ import ServiceFAQ from './ServiceFAQ';
 const VideoEditingDetails = () => {
   const videoEditingData: ServiceDetailData = {
     tag: "Video Production",
-    title: "Video Editing & Motion Graphics",
+    title: "Video Editing",
     tagline: "Story that moves your audience",
     description: "You have a story to tell but need to bring it to life in a way that truly engages people. We bring your stories to life with professional video content that captivates and moves your audience. From quick social clips to in-depth corporate videos, we make sure your message is seen and heard.",
     mascotImage: "/assets/img/Video editing.png",
     services: [
       {
-        title: "Video Editing & Motion Graphics",
+        title: "Video Editing",
         description: "We don't just edit videos; we craft stories that move, persuade, and inspire. From a quick social media clip to a full-length documentary, we handle every detail of the post-production process to deliver polished, professional content that captures your audience's attention.",
         icon: ""
       },
@@ -82,7 +82,7 @@ const VideoEditingDetails = () => {
     <>
       <ServiceDetailsTemplate serviceData={videoEditingData} />
       <ServiceFAQ
-        title="Video Editing & Motion Graphics - FAQ"
+        title="Video Editing - FAQ"
         faqs={[
           { question: 'Do you use our existing footage or shoot new content?', answer: "We can do both. We can work with your raw footage to produce high-quality videos, or we can plan and shoot new content to bring your vision to life." },
           { question: "What's the typical turnaround time for a corporate video?", answer: 'A standard 2-3 minute corporate video usually takes 2-4 weeks, depending on the complexity of the project and the number of revisions.' },

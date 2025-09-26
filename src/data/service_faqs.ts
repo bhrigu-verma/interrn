@@ -1,20 +1,47 @@
+export const contentOwnershipFAQs = [
+  {
+    question: "How do you protect my content from AI misuse?",
+    answer: "We use a combination of visible and invisible watermarking, digital monitoring, and publishing strategies to ensure your content is attributed and not misused by AI or other parties."
+  },
+  {
+    question: "What is invisible watermarking?",
+    answer: "Invisible watermarking embeds information in your digital assets that is not visible to the naked eye but can be detected with special tools, helping to prove ownership and track unauthorized use."
+  },
+  {
+    question: "How do you monitor where my content is used?",
+    answer: "We use advanced monitoring tools to scan the web and AI platforms for your content, alerting you to potential misuse or unauthorized use so you can take action quickly."
+  },
+  {
+    question: "Can you help with copyright and licensing?",
+    answer: "Yes, we provide guidance on copyright best practices and help you set up licensing strategies to ensure your content is legally protected and its usage is controlled."
+  },
+  {
+    question: "How do you ensure AI gives proper attribution to my content?",
+    answer: "We use specific publishing and structuring strategies so that when AI models use your content, they provide proper attribution, driving traffic and authority back to your brand."
+  },
+  {
+    question: "What publishing strategies do you recommend?",
+    answer: "We advise on the best platforms and methods for publishing your content to maximize visibility and minimize the risk of unauthorized use by AI models."
+  }
+];
 // FAQ data for all service bundles
 
-export const creativesContentFAQs = [
-  // Graphic Designing
+export const graphicDesigningFAQs = [
   {
-    question: "How long does it take to create a brand kit?",
-    answer: "A complete brand kit typically takes 2-3 weeks. This includes the time for initial strategy, design concepts, revisions, and final delivery of all brand assets."
+    question: "Why is UI/UX design important for my business?",
+    answer: "Great design is crucial for conversions. By creating an intuitive and seamless user experience, we can guide visitors to take the actions you want them to, whether it’s making a purchase or signing up for a newsletter."
   },
   {
-    question: "Do I get full ownership of the designs?",
-    answer: "Yes, once the project is complete and the final payment is made, you will have full ownership of all the designs and source files."
+    question: "Can you help us with our branding even if we don't need a new website?",
+    answer: "Absolutely. We can help you define your brand's visual identity, including fonts, color palettes, and style guides, to ensure a consistent and professional look across all of your marketing materials."
   },
   {
-    question: "Can you work with my existing branding?",
-    answer: "Absolutely. We can create new assets that seamlessly integrate with your existing visual identity, ensuring brand consistency."
-  },
-  // Video Editing & Motion Graphics
+    question: "What is the process for a website design project?",
+    answer: "We begin with a discovery call to understand your business goals. From there, we create wireframes and mockups, and once those are approved, we'll design a final visual prototype before moving on to development."
+  }
+];
+
+export const videoEditingFAQs = [
   {
     question: "Do you use our existing footage or shoot new content?",
     answer: "We can do both. We can work with your raw footage to produce high-quality videos, or we can plan and shoot new content to bring your vision to life."
@@ -26,8 +53,10 @@ export const creativesContentFAQs = [
   {
     question: "Can you help us with the video script?",
     answer: "Yes, our team can help you write and refine a compelling script to ensure your video's message is clear and engaging."
-  },
-  // Copywriting
+  }
+];
+
+export const copywritingFAQs = [
   {
     question: "How is your copywriting different from just writing content?",
     answer: "Our copywriting is strategic and conversion-focused. We don't just fill pages with words; we craft compelling messages that are designed to connect with your audience and drive them to take a specific action, whether it's making a purchase or signing up for a newsletter."
@@ -42,8 +71,7 @@ export const creativesContentFAQs = [
   }
 ];
 
-export const socialCommunityGrowthFAQs = [
-  // Social Media Management
+export const socialMediaManagementFAQs = [
   {
     question: "How do you measure social media success?",
     answer: "We go beyond likes and followers. We track key performance indicators (KPIs) like engagement rate, website traffic from social channels, lead generation, and conversions. Our reports will show you exactly how social media is impacting your business goals."
@@ -55,8 +83,10 @@ export const socialCommunityGrowthFAQs = [
   {
     question: "What if we don't have visual content to post?",
     answer: "No problem. Our team can create custom, on-brand visuals, videos, and graphics to fill your content calendar and engage your audience."
-  },
-  // Influencer Marketing & PR
+  }
+];
+
+export const influencerMarketingFAQs = [
   {
     question: "How do you find the right influencers for my brand?",
     answer: "We use a strategic, data-driven approach to find influencers who have an authentic connection with your target audience. We focus on relevance and engagement, not just follower count, to ensure your collaborations deliver real results."
@@ -68,8 +98,10 @@ export const socialCommunityGrowthFAQs = [
   {
     question: "What is the difference between a micro-influencer and a celebrity influencer?",
     answer: "Micro-influencers have smaller but highly engaged and niche audiences, making them excellent for building authentic trust and driving conversions. Celebrity influencers have massive reach and are better for broad brand awareness campaigns."
-  },
-  // UGC & Creator Commerce
+  }
+];
+
+export const ugcCreatorCommerceFAQs = [
   {
     question: "How do you encourage our customers to create content?",
     answer: "We develop a strategy that motivates your customers to share their experiences, whether through a social media contest, a product seeding program, or a loyalty incentive."
@@ -198,7 +230,7 @@ export const ondcRetailMediaFAQs = [
   },
   {
     question: "How is ONDC different from Amazon or Flipkart?",
-    answer: "ONDC is an open network that allows buyers and sellers to connect directly, unlike a traditional marketplace. We specialize in helping you navigate this unique ecosystem to maximize your brand's reach."
+    answer: "ONDC is an open network that allows buyers and sellers to connect directly, unlike a traditional marketplace. We specialize in helping you navigate this unique ecosystem to maximize your brand’s reach."
   },
   {
     question: "Can you manage our product catalog on platforms we already use?",
@@ -207,7 +239,7 @@ export const ondcRetailMediaFAQs = [
   // Retail Ad Campaigns
   {
     question: "How do you choose which platforms to advertise on?",
-    answer: "We use a data-driven approach to determine the best platforms for your products and audience. We'll analyze your brand, your competitors, and your target market to create a custom ad strategy that maximizes your ROI."
+    answer: "We use a data-driven approach to determine the best platforms for your products and audience. We’ll analyze your brand, your competitors, and your target market to create a custom ad strategy that maximizes your ROI."
   },
   {
     question: "How do you measure the success of our retail ad campaigns?",

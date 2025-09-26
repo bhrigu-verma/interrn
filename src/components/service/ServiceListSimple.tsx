@@ -18,7 +18,7 @@ const services: ServiceItem[] = [
   { id: 7, title: 'Performance Marketing', image: '/assets/img/performancemarketing.png' },
   { id: 8, title: 'Influencer Marketing & PR', image: '/assets/img/Influencer Marketer.png' },
   { id: 9, title: 'AI-SEO, GEO, AEO & Content Protection', image: '/assets/img/seo.png' },
-  { id: 10, title: 'ONDC & Retail Media Ops', image: '/assets/img/ONDC.png' },
+  { id: 10, title: 'ONDC & Retail Media Operations', image: '/assets/img/ONDC.png' },
   { id: 11, title: 'CRO & Analytics Hub', image: '/assets/img/results.jpg' },
   { id: 12, title: 'UGC & Creator Commerce', image: '/assets/img/content creation.png' },
   { id: 13, title: 'AI Automations', image: '/assets/img/automation.png' },

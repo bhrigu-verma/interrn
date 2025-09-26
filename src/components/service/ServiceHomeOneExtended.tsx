@@ -14,11 +14,11 @@ const services: ServiceItem[] = [
   { id: 2, title: 'Social Media Management', image: '/assets/img/Social & Community Growth.png' },
   { id: 3, title: 'Performance Marketing', image: '/assets/img/performancemarketing.png' },
   { id: 4, title: 'WhatsApp Marketing', image: '/assets/img/Whatsapp marketer (2).png' },
-  { id: 5, title: 'AI & Future-Ready Solutions', image: '/assets/img/aiautomation.png' },
+  { id: 5, title: 'Content Ownership', image: '/assets/img/aiautomation.png' },
   { id: 6, title: 'Development (Coding & Technology)', image: '/assets/img/Web Developer.png' },
-  { id: 7, title: 'ONDC & Retail Media Ops', image: '/assets/img/ONDC.png' },
+  { id: 7, title: 'ONDC & Retail Media Operations', image: '/assets/img/ONDC.png' },
   { id: 8, title: 'Design (UI/UX & Branding)', image: '/assets/img/uidesign.png' },
-  { id: 9, title: 'Video Editing & Motion Graphics', image: '/assets/img/Video editing.png' },
+  { id: 9, title: 'Video Editing', image: '/assets/img/Video editing.png' },
   { id: 10, title: 'Graphic Designing', image: '/assets/img/Graphic design.png' },
   { id: 11, title: 'Copywriting', image: '/assets/img/copywriter1.png' },
   { id: 12, title: 'Influencer Marketing & PR', image: '/assets/img/Influencer Marketer.png' },
@@ -31,16 +31,16 @@ const services: ServiceItem[] = [
 // Service taglines mapping
 const serviceTaglines: Record<string, string> = {
   'AI-Based Content Creation': 'We don\'t just create content, we craft experiences that make your brand unforgettable.',
-  'Social & Community Growth': 'Social media is the face of your brand & we make sure it shines.',
+  'Social Media Management': '',
   'Performance Marketing': 'Where every click counts.',
   'WhatsApp Marketing': 'The fastest way to your customers\' hearts.',
-  'AI & Future-Ready Solutions': 'AI tools with human touch.',
-  'Web, App & Custom Development': 'Websites that work as hard as you do.',
-  'ONDC & Retail Media Ops': 'Retail ads that deliver real sales.',
+  'Content Ownership': 'Your invisible shield against AI misuse',
+  'Development (Coding & Technology)': 'Websites that work as hard as you do.',
+  'ONDC & Retail Media Operations': 'Retail ads that deliver real sales.',
   'Design (UI/UX & Branding)': 'Designing experiences, not just screens.',
-  'Video Editing & Motion Graphics': 'Story that moves your audience',
+  'Video Editing': 'Story that moves your audience',
   'Graphic Designing': 'Designs so bold that your brand never whispers, it SHOUTS.',
-  'Copywriting': 'Words are powerful, but the right words are what turn visitors into customers.',
+  'Copywriting': 'From captions to campaigns—we write it all ',
   'Influencer Marketing & PR': 'Collaborations that click.',
   'UGC & Creator Commerce': 'Real voices, real growth.',
   'CRO & Analytics Hub': 'Conversions aren\'t luck - they\'re strategy.',
@@ -146,17 +146,17 @@ const ServiceHomeOneExtended = ({ compact = false, hideHeading = false }: Props)
                   <div className="cs_card_right_in">
                     <h2 className="cs_card_title"><Link href={
                       item.title === 'Graphic Designing' ? '/services/graphic-designing' :
-                      item.title === 'Video Editing & Motion Graphics' ? '/services/video-editing' :
+                      item.title === 'Video Editing' ? '/services/video-editing' :
                       item.title === 'Social Media Management' ? '/services/social-media-management' :
                       item.title === 'Social & Community Growth' ? '/services/social-community-growth' :
                       item.title === 'AI-Based Content Creation' ? '/services/ai-based-content' :
-                      item.title === 'AI & Future-Ready Solutions' ? '/services/ai-future-ready' :
+                      item.title === 'Content Ownership' ? '/services/content-ownership' :
                       item.title === 'Copywriting' ? '/services/copywriting' :
                       item.title === 'WhatsApp Marketing' ? '/services/whatsapp-marketing' :
                       item.title === 'Performance Marketing' ? '/services/performance-marketing' :
                       item.title === 'Influencer Marketing & PR' ? '/services/influencer-marketing-pr' :
                       item.title === 'AI-SEO, GEO, AEO & Content Protection' ? '/services/ai-seo-geo-aeo-content-protection' :
-                      item.title === 'ONDC & Retail Media Ops' ? '/services/ondc-retail-media-ops' :
+                      item.title === 'ONDC & Retail Media Operations' ? '/services/ondc-retail-media-ops' :
                       item.title === 'CRO & Analytics Hub' ? '/services/cro-analytics' :
                       item.title === 'UGC & Creator Commerce' ? '/services/ugc-creator-commerce' :
                       item.title === 'AI Automations' ? '/services/ai-automations' :
@@ -165,6 +165,7 @@ const ServiceHomeOneExtended = ({ compact = false, hideHeading = false }: Props)
                       item.title === 'Development (Coding & Technology)' ? '/services/development-coding-technology' :
                       '/service'
                     }>{item.title}</Link></h2>
+                    {/* Custom content for Content Ownership section removed, only tagline will show as tagline */}
                     {serviceTaglines[item.title] && (
                       <p className="cs_card_tagline">{serviceTaglines[item.title]}</p>
                     )}

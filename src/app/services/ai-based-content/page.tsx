@@ -4,6 +4,8 @@ import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
+import ServiceFAQ from '@/components/service/ServiceFAQ';
+import { aiFutureReadyFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   return (
@@ -39,6 +41,7 @@ export default function Page() {
               ]}
               cta="Transform your content creation process today."
             />
+            <ServiceFAQ faqs={aiFutureReadyFAQs.slice(0, 2)} />
           </main>
           <FooterOne />
         </div>

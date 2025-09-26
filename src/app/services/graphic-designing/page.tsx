@@ -7,7 +7,7 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
 import { getServiceBySlug } from '@/data/service_detail_data';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { creativesContentFAQs } from '@/data/service_faqs';
+import { graphicDesigningFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   const serviceData = getServiceBySlug('graphic-designing');
@@ -36,7 +36,7 @@ export default function Page() {
               sections={serviceData.sections}
               cta={serviceData.cta}
             />
-            <ServiceFAQ faqs={creativesContentFAQs.slice(0, 3)} />
+            <ServiceFAQ faqs={graphicDesigningFAQs} />
           </main>
           <FooterOne />
         </div>

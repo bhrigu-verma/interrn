@@ -19,7 +19,7 @@ const creative_services_data = [
     id: 2,
     number: "02",
     emoji: "",
-    title: "Video Editing & Motion Graphics",
+    title: "Video Editing",
     headline: "A Story That Moves Your Audience.",
     description: "We bring your brand's narrative to life with professional video editing and dynamic motion graphics.",
     services: [
