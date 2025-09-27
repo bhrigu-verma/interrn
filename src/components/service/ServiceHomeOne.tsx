@@ -43,7 +43,6 @@ const service_data: DataType[] = [
     id: 2,
     title: `Social & Community Growth`,
   des: `1. Social Media Management<br/>
-<span style="font-size:15px;color:#F33C52;font-weight:500;">Social media is the face of your brand & we make sure it shines.</span><br/>
 2. Influencer Marketing and PR<br/>
 3. UGC & Creator Commerce`,
     link: `/services/social-community-growth`

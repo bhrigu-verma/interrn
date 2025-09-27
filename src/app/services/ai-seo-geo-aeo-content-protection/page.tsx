@@ -30,7 +30,7 @@ export default function Page() {
               cta={serviceData.cta}
             />
             <ServiceFAQ faqs={aiSeoGeoAeoFAQs} />
-// Removed duplicate trailing JSX and closing tags
+// 
           </main>
           <FooterOne />
         </div>
