@@ -19,7 +19,7 @@ import BlogHomeOne from '@/components/blog/BlogHomeOne';
 import FooterOne from '@/layouts/footers/FooterOne';
 import VideoPopup from '@/components/modals/VideoPopup';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { socialCommunityGrowthFAQs } from '@/data/service_faqs';
+import { socialMediaManagementFAQs } from '@/data/service_faqs';
 
 
 
@@ -45,7 +45,7 @@ const index = () => {
             <PortfolioHomeFive />
             <FunFactHomeOne style_2={true} />
             <AwardsHomeOne />
-            <ServiceFAQ faqs={socialCommunityGrowthFAQs} />
+            <ServiceFAQ faqs={socialMediaManagementFAQs} />
             <Testimonial />
             <TeamHomeTwo style_2={true} />
             <BrandHomeOne style_2={true} />

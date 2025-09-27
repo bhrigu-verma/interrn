@@ -7,7 +7,7 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
 import { getServiceBySlug } from '@/data/service_detail_data';
-import { aiFutureReadyFAQs } from '@/data/service_faqs';
+import { aiSeoGeoAeoFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   const serviceData = getServiceBySlug('ai-seo');
@@ -29,7 +29,7 @@ export default function Page() {
               sections={serviceData.sections}
               cta={serviceData.cta}
             />
-            <ServiceFAQ faqs={aiFutureReadyFAQs.slice(4, 6)} />
+            <ServiceFAQ faqs={aiSeoGeoAeoFAQs} />
 // Removed duplicate trailing JSX and closing tags
           </main>
           <FooterOne />

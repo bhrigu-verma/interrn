@@ -8,7 +8,7 @@ import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { aiFutureReadyFAQs } from '@/data/service_faqs';
+import { aiSeoGeoAeoFAQs } from '@/data/service_faqs';
 
 const AISEOPage = () => {
   return (
@@ -18,7 +18,7 @@ const AISEOPage = () => {
         <div id="smooth-content">
           <main>
             <AISEODetails />
-            <ServiceFAQ faqs={aiFutureReadyFAQs.slice(6, 9)} />
+            <ServiceFAQ faqs={aiSeoGeoAeoFAQs} />
             <AboutHomeFour />
           </main>
           <FooterOne />

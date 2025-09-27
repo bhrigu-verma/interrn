@@ -9,7 +9,7 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
 import { getServiceBySlug } from '@/data/service_detail_data';
-import { aiFutureReadyFAQs } from '@/data/service_faqs';
+import { aiSeoGeoAeoFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   const serviceData = getServiceBySlug('ai-seo-geo-aeo');
@@ -33,7 +33,7 @@ export default function Page() {
               sections={serviceData.sections}
               cta={serviceData.cta}
             />
-            <ServiceFAQ faqs={aiFutureReadyFAQs.slice(4, 6)} />
+            <ServiceFAQ faqs={aiSeoGeoAeoFAQs} />
             <div style={{ padding: '24px 0 0 24px' }}>
               <Link href="/services" style={{ textDecoration: 'none', color: '#F33C52', fontWeight: 600, fontSize: 18 }}>
                 ← Back

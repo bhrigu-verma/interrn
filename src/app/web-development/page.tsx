@@ -8,7 +8,7 @@ import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { webAppDevelopmentFAQs } from '@/data/service_faqs';
+import { developmentCodingTechnologyFAQs } from '@/data/service_faqs';
 
 const WebDevelopmentPage = () => {
   return (
@@ -18,7 +18,7 @@ const WebDevelopmentPage = () => {
         <div id="smooth-content">
           <main>
             <WebDevelopmentDetails />
-            <ServiceFAQ faqs={webAppDevelopmentFAQs.slice(0, 3)} />
+            <ServiceFAQ faqs={developmentCodingTechnologyFAQs} />
             <AboutHomeFour />
           </main>
           <FooterOne />

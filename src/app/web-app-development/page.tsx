@@ -10,7 +10,7 @@ import Testimonial from '@/components/testimonial/Testimonial';
 import BlogHomeOne from '@/components/blog/BlogHomeOne';
 import FooterOne from '@/layouts/footers/FooterOne';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { webAppDevelopmentFAQs } from '@/data/service_faqs';
+import { developmentCodingTechnologyFAQs } from '@/data/service_faqs';
 
 // export const metadata = {
 //   title: "Web, App & Custom Development - Shout Out of the Box Digital Agency",
@@ -26,7 +26,7 @@ const index = () => {
             <WebAppHero />
             <WebAppServices />
             <PortfolioHomeFour />
-            <ServiceFAQ faqs={webAppDevelopmentFAQs} />
+            <ServiceFAQ faqs={developmentCodingTechnologyFAQs} />
             <Testimonial />
             <BlogHomeOne style_2={true} />
           </main>

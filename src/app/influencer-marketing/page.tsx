@@ -8,7 +8,7 @@ import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { socialCommunityGrowthFAQs } from '@/data/service_faqs';
+import { influencerMarketingFAQs } from '@/data/service_faqs';
 
 const InfluencerMarketingPage = () => {
   return (
@@ -18,7 +18,7 @@ const InfluencerMarketingPage = () => {
         <div id="smooth-content">
           <main>
             <InfluencerMarketingDetails />
-            <ServiceFAQ faqs={socialCommunityGrowthFAQs.slice(3, 6)} />
+            <ServiceFAQ faqs={influencerMarketingFAQs} />
             <AboutHomeFour />
           </main>
           <FooterOne />

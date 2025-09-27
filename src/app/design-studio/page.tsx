@@ -16,7 +16,7 @@ import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { aiFutureReadyFAQs } from '@/data/service_faqs';
+import { designUiUxBrandingFAQs } from '@/data/service_faqs';
 import React from 'react';
 
 // export const metadata = {
@@ -37,7 +37,7 @@ const index = () => {
             <ServiceHomeThree />
             <PortfolioHomeThree />
             <AwardsHomeOne />
-            <ServiceFAQ faqs={aiFutureReadyFAQs} />
+            <ServiceFAQ faqs={designUiUxBrandingFAQs} />
             <Testimonial />
             <TeamHomeTwo  style_2={true} />
             <AboutUs />

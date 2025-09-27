@@ -7,7 +7,7 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
 import { getServiceBySlug } from '@/data/service_detail_data';
-import { performanceGrowthFAQs } from '@/data/service_faqs';
+import { whatsappMarketingFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   const serviceData = getServiceBySlug('whatsapp-marketing');
@@ -31,7 +31,7 @@ export default function Page() {
               sections={serviceData.sections}
               cta={serviceData.cta}
             />
-            <ServiceFAQ faqs={performanceGrowthFAQs.slice(6, 9)} />
+            <ServiceFAQ faqs={whatsappMarketingFAQs} />
             <div style={{ padding: '24px 0 0 24px' }}>
               <Link href="/services" style={{ textDecoration: 'none', color: '#F33C52', fontWeight: 600, fontSize: 18 }}>
                 ← Back

@@ -11,7 +11,7 @@ import Testimonial from '@/components/testimonial/Testimonial';
 import BlogHomeOne from '@/components/blog/BlogHomeOne';
 import FooterOne from '@/layouts/footers/FooterOne';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { creativesContentFAQs } from '@/data/service_faqs';
+import { graphicDesigningFAQs } from '@/data/service_faqs';
 
 // export const metadata = {
 //   title: "Creative & Content - Shout Out of the Box Digital Agency",
@@ -27,7 +27,7 @@ const index = () => {
             <CreativeContentHero />
             <CreativeContentServices />
             <PortfolioHomeFour />
-            <ServiceFAQ faqs={creativesContentFAQs} />
+            <ServiceFAQ faqs={graphicDesigningFAQs} />
             <Testimonial />
             <BlogHomeOne style_2={true} />
           </main>

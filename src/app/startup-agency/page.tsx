@@ -20,7 +20,7 @@ import BlogHomeTwo from '@/components/blog/BlogHomeTwo';
 import FooterOne from '@/layouts/footers/FooterOne';
 import VideoPopup from '@/components/modals/VideoPopup';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { performanceGrowthFAQs } from '@/data/service_faqs';
+import { performanceMarketingFAQs } from '@/data/service_faqs';
 
 
 // export const metadata = {
@@ -45,7 +45,7 @@ const index = () => {
             <ServiceHomeTwo />
             <PortfolioHomeOne />
             <AwardsHomeOne />
-            <ServiceFAQ faqs={performanceGrowthFAQs} />
+            <ServiceFAQ faqs={performanceMarketingFAQs} />
             <Testimonial />
             <TeamHomeTwo style_2={true} />
             <BrandHomeOne style_2={true} />

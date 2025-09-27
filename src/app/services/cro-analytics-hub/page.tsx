@@ -6,7 +6,7 @@ import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
 import { getServiceBySlug } from '@/data/service_detail_data';
-import { performanceGrowthFAQs } from '@/data/service_faqs';
+import { croAnalyticsHubFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   const serviceData = getServiceBySlug('cro-analytics-hub');
@@ -30,7 +30,7 @@ export default function Page() {
               sections={serviceData.sections}
               cta={serviceData.cta}
             />
-            <ServiceFAQ faqs={performanceGrowthFAQs.slice(3, 6)} />
+            <ServiceFAQ faqs={croAnalyticsHubFAQs} />
           </main>
           <FooterOne />
         </div>
