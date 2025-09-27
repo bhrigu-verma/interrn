@@ -3,7 +3,7 @@ import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { performanceGrowthFAQs } from '@/data/service_faqs';
+import { performanceMarketingFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   return (
@@ -23,7 +23,7 @@ export default function Page() {
                 { title: 'Optimization stack', content: ['A/B testing and creative matrices', 'Audience layering and budget pacing', 'Event tracking, UTMs, and conversion APIs', 'Retargeting and lifecycle nurture flows'] }
               ]}
             />
-            <ServiceFAQ faqs={performanceGrowthFAQs.slice(0, 3)} />
+            <ServiceFAQ faqs={performanceMarketingFAQs} />
           </main>
           <FooterOne />
         </div>
