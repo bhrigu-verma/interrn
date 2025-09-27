@@ -5,7 +5,7 @@ import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { aiFutureReadyFAQs } from '@/data/service_faqs';
+import { aiAutomationsFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   return (
@@ -36,7 +36,7 @@ export default function Page() {
                 }
               ]}
             />
-            <ServiceFAQ faqs={aiFutureReadyFAQs.slice(3, 6)} />
+            <ServiceFAQ faqs={aiAutomationsFAQs} />
           </main>
           <FooterOne />
         </div>
