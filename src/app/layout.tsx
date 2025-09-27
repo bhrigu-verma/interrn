@@ -22,32 +22,6 @@ export default function RootLayout({
 
       <body className="dark">
         {children}
-{/* //code.tidio.co/0rxzl3nzg5zvdi2uyhttskr1hwdtgbm7.js */}
-        <Script
-          src="//code.tidio.co/ehpg3aflgbooxtkkvnweykggy6nvzg8w.js"
-          strategy="afterInteractive"
-        />
-        {/* <script src="//code.tidio.co/ehpg3aflgbooxtkkvnweykggy6nvzg8w.js" async></script> */}
-        <style>{`
-          /* Removed custom cursor and special Tidio z-index overrides to
-             restore default system cursor behavior and equalize chat icon
-             stacking. Keep only text justification here. */
-
-          
-
-          /* Tidio chat: nudge the widget up slightly (5-10px) to avoid overlap with other UI */
-          /* Target common Tidio selectors; use transform and bottom fallback with !important to override injected styles */
-          #tidio-chat,
-          .tidio-chat-iframe,
-          .tidio-launcher,
-          .tidio-floating-button,
-          .tidio-iframe-container,
-          .tidio-chat-wrapper {
-            transform: translateY(-28px) !important;
-            /* fallback if transform is not desired: increase bottom offset */
-            bottom: calc( (var(--tidio-bottom, 16px)) + 28px ) !important;
-          }
-        `}</style>
       </body>
     </html>
   );
