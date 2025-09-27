@@ -75,34 +75,6 @@ const portfolio_data: DataType[] = [
     link: 'https://www.behance.net/shoutotb'
   },
   // Instagram items in Motion Graphics
-  {
-    id: 4,
-    category: 'Motion Graphics',
-    instagramUrl: 'https://www.instagram.com/reel/DD2C1uiz9sZ/',
-    title: 'Asha Mam Testimonial',
-    des: 'Instagram Testimonial'
-  },
-  {
-    id: 5,
-    category: 'Motion Graphics',
-    instagramUrl: 'https://www.instagram.com/reel/DDmS8CwTnpN/',
-    title: 'Best Moments',
-    des: 'Instagram Reel'
-  },
-  {
-    id: 6,
-    category: 'Motion Graphics',
-    instagramUrl: 'https://www.instagram.com/reel/DBOhoqYg6rR/',
-    title: 'Motion Graphics Reel',
-    des: 'Instagram Reel'
-  },
-  {
-    id: 7,
-    category: 'Motion Graphics',
-    instagramUrl: 'https://www.instagram.com/reel/DA3FshuN-uX/',
-    title: 'Level Up Your Brand',
-    des: 'Instagram Reel'
-  },
   // Coming soon for other categories
   {
     id: 8,
