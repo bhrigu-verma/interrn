@@ -39,7 +39,7 @@ const HeroDesign = () => {
         <div className="container">
           <div className="cs_section_heading cs_style_1 cs_type_1">
             <div className="cs_section_heading_text">
-              <div className="cs_section_subtitle anim_div_ShowZoom">Designing experiences, not just screens.</div>
+              <div className="cs_section_subtitle anim_div_ShowZoom">Designing experiences, not just screens</div>
               <h2 className="cs_section_title anim_text_writting">{hero_design.title}</h2>
             </div>
           </div>

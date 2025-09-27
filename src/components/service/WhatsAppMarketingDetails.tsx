@@ -8,7 +8,7 @@ const WhatsAppMarketingDetails = () => {
   const whatsappMarketingData: ServiceDetailData = {
     tag: "WhatsApp Marketing",
     title: "WhatsApp Marketing",
-    tagline: "The fastest way to your customers' hearts.",
+    tagline: "The fastest way to your customers' hearts",
     description: "Connect with your customers on a personal level and turn conversations into conversions. We build automated, high-impact marketing campaigns on WhatsApp to help you engage with your audience and drive sales directly.",
   mascotImage: "/assets/img/whatsapp-mascot.png", // Use a mascot that visually represents WhatsApp marketing
     services: [

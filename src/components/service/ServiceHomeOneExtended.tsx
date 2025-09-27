@@ -31,20 +31,20 @@ const services: ServiceItem[] = [
 // Service taglines mapping
 const serviceTaglines: Record<string, string> = {
   'AI-Based Content Creation': 'We don\'t just create content, we craft experiences that make your brand unforgettable.',
-  'Social Media Management': 'Grow your brand and community with authentic engagement.',
-  'Performance Marketing': 'Where every click counts.',
-  'WhatsApp Marketing': 'The fastest way to your customers\' hearts.',
+  'Social Media Management': 'Grow your brand and community with authentic engagement',
+  'Performance Marketing': 'Where every click counts',
+  'WhatsApp Marketing': 'The fastest way to your customers\' hearts',
   'Content Ownership': 'Your invisible shield against AI misuse',
   'Development (Coding & Technology)': 'Websites that work as hard as you do.',
   'ONDC & Retail Media Operations': 'Retail ads that deliver real sales.',
-  'Design (UI/UX & Branding)': 'Designing experiences, not just screens.',
+  'Design (UI/UX & Branding)': 'Designing experiences, not just screens',
   'Video Editing': 'Story that moves your audience',
   'Graphic Designing': 'Designs so bold that your brand never whispers, it SHOUTS.',
   'Copywriting': 'From captions to campaigns—we write it all ',
-  'Influencer Marketing & PR': 'Collaborations that click.',
-  'UGC & Creator Commerce': 'Real voices, real growth.',
+  'Influencer Marketing & PR': 'Collaborations that click',
+  'UGC & Creator Commerce': 'Real voices, real growth',
   'CRO & Analytics Hub': 'Conversions aren\'t luck - they\'re strategy.',
-  'AI Automations': 'AI that works while you sleep.',
+  'AI Automations': 'AI that works while you sleep',
   'AI-SEO, GEO, AEO & Content Protection': 'Protect your brand in the AI landscape.',
 };
 

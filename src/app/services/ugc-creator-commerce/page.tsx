@@ -22,7 +22,7 @@ export default function Page() {
           <main>
             <ServiceDetailTemplate
               title="UGC & Creator Commerce"
-              tagline="Real voices, real growth."
+              tagline="Real voices, real growth"
               image="/assets/img/Social & Community Growth.png"
               intro="Win trust with creator‑style content that feels native, not ads. Seed products, gather testimonials, and turn UGC into high‑performing ads."
               description="Build authentic brand connections through user-generated content and creator partnerships that drive engagement and conversions."

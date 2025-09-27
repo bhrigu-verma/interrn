@@ -16,7 +16,7 @@ export default function Page() {
           <main>
             <ServiceDetailTemplate
               title="AI-Based Content Creation"
-              tagline="AI tools with human touch."
+              tagline="AI tools with human touch"
               image="/assets/img/AI Developer.png"
               intro="Scale content with AI-without losing the human spark. We combine prompt engineering with brand voice systems to produce assets that feel on‑brand and ready to publish."
               description="Harness the power of AI to create high-quality, on-brand content at scale while maintaining the human touch that resonates with your audience."

@@ -8,7 +8,7 @@ const AIAutomationsDetails = () => {
   const aiAutomationsData: ServiceDetailData = {
     tag: "AI Automation",
     title: "AI Automations",
-    tagline: "AI that works while you sleep.",
+    tagline: "AI that works while you sleep",
     description: "We build powerful automations that streamline your customer journeys and daily tasks. Our solutions work 24/7, so your team can focus on what matters most: growth.",
   mascotImage: "/assets/img/aiautomation.png", // Mascot for AI Automations
     services: [

@@ -8,7 +8,7 @@ const InfluencerMarketingDetails = () => {
   const influencerMarketingData: ServiceDetailData = {
     tag: "Influencer Relations",
     title: "Influencer Marketing & PR",
-    tagline: "Collaborations that click. / PR that puts you on the map.",
+    tagline: "Collaborations that click / PR that puts you on the map",
     description: "In a world full of advertising noise, we help you build trust and credibility by partnering with the right voices. We go beyond simple collaborations to create authentic partnerships and secure media placements that put your brand on the map and in front of the right audience.",
     mascotImage: "/assets/img/Influencer Marketer.png",
     services: [

@@ -8,7 +8,7 @@ const UGCCreatorCommerceDetails = () => {
   const ugcCreatorCommerceData: ServiceDetailData = {
     tag: "Creator Economy",
     title: "UGC & Creator Commerce",
-    tagline: "Real voices, real growth. / Turn customers into brand creators.",
+    tagline: "Real voices, real growth / Turn customers into brand creators.",
     description: "In the age of social media, authenticity wins. We help you turn your most loyal customers and passionate creators into your best brand advocates. By leveraging authentic, user-generated content, we build trust and drive real-world growth that traditional marketing messages can't achieve.",
   mascotImage: "/assets/img/content creation.png", // Mascot for UGC & Creator Commerce
     services: [

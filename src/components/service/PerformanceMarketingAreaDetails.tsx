@@ -51,7 +51,7 @@ const PerformanceMarketingAreaDetails = () => {
               Our Performance Marketing Channels & Strategy
             </h4>
             <p className="cs_mp0 anim_text">
-              Where every click counts. We blend sharp targeting with fast creative iteration to scale profitable campaigns across platforms. 
+              Where every click counts We blend sharp targeting with fast creative iteration to scale profitable campaigns across platforms. 
               Our data-driven approach ensures your ad spend delivers maximum ROI through continuous optimization and strategic testing.
             </p>
           </div>

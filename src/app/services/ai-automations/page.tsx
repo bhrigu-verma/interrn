@@ -16,7 +16,7 @@ export default function Page() {
           <main>
             <ServiceDetailTemplate
               title="AI Automations"
-              tagline="AI that works while you sleep."
+              tagline="AI that works while you sleep"
               image="/assets/img/aiautomation.png"
               intro="Automate the busywork and keep the human touch. We stitch tools together so ops run faster—from lead capture to follow‑ups and reporting."
               description="Transform your business operations with intelligent automation solutions that handle repetitive tasks while preserving the human elements that matter most to your customers."

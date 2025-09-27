@@ -8,7 +8,7 @@ const UIUXDesignDetails = () => {
   const uiuxDesignData: ServiceDetailData = {
     tag: "Design Excellence",
     title: "Design (UI/UX & Branding)",
-    tagline: "Designing experiences, not just screens.",
+    tagline: "Designing experiences, not just screens",
     description: "Great development starts with great design. Your website is more than a digital business card; it's a high-performance asset. We design and build seamless, stunning digital experiences that not only showcase your brand but also perform flawlessly to drive your business goals.",
     mascotImage: "/assets/img/uidesign.png",
     services: [

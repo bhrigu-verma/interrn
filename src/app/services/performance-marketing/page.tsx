@@ -16,7 +16,7 @@ export default function Page() {
           <main>
             <ServiceDetailTemplate
               title="Performance Marketing"
-              tagline="Where every click counts."
+              tagline="Where every click counts"
               image="/assets/img/performancemarketing.png"
               intro="Data‑driven ads with creative that converts. We blend sharp targeting with fast creative iteration to scale profitable campaigns across platforms."
               description="Every click, every ad, and every penny matters. We use data-driven strategies to maximize your ROI, so you can stop guessing and start growing. Our team turns traffic into profit and helps you achieve your business goals with precision."

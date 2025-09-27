@@ -157,9 +157,12 @@ const TeamHomeTwo = ({ style_2, style_3 }: any) => {
                 lineHeight: '1.2', 
                 marginBottom: '10px',
                 wordWrap: 'break-word',
-                maxWidth: '100%'
+                maxWidth: '100%',
+                textAlign: 'left',
+                marginLeft: '10px'
               }}>
-                {style_2 ? title_2 : title}
+                <span style={{display:'block', whiteSpace:'nowrap'}}>Thinkers, Builders, Game-Changers</span>
+                <span style={{display:'block'}}>- That's Our Team</span>
               </h2>
             </div>
             <div className="cs_section_heading_right cs_btn_anim">

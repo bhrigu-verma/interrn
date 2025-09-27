@@ -11,7 +11,7 @@ const ai_future_ready_data = [
   {
     id: '02',
     title: 'AI Automations',
-    quote: '“AI that works while you sleep.”',
+    quote: '“AI that works while you sleep”',
     link: '/services/ai-automations',
   },
   {

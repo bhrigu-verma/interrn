@@ -18,7 +18,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'social-media-management',
     title: 'Social Media Management',
-    tagline: 'Grow your brand and community with authentic engagement.',
+    tagline: 'Grow your brand and community with authentic engagement',
   image: '/assets/img/Perfornmence and growth.png',
   intro: "We manage, you grow. We handle every aspect of your social presence, so you can focus on your business while we build your brand's authority. This is about more than just posting; it's about strategic growth, audience engagement, and consistent results.",
     description: 'Our Social & Community Growth bundle includes Social Media Management, Influencer Marketing & PR, and UGC & Creator Commerce. Explore each service to see how we can help you grow.',
@@ -117,7 +117,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'social-community-growth',
     title: 'Social & Community Growth',
-    tagline: 'Grow your brand and community with authentic engagement.',
+    tagline: 'Grow your brand and community with authentic engagement',
     image: '/assets/img/Social & Community Growth.png',
     intro: 'We help you build a thriving online presence with a blend of social media management, influencer marketing, and UGC strategies. Our approach combines authentic engagement with proven growth tactics to foster a loyal community around your brand.',
     description: 'Our Social & Community Growth bundle includes Social Media Management, Influencer Marketing & PR, and UGC & Creator Commerce. Explore each service to see how we can help you grow.',
@@ -138,7 +138,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'ai-future-ready',
     title: 'AI & Future-Ready Solutions',
-    tagline: 'AI tools with a human touch for tomorrow’s growth.',
+    tagline: 'AI tools with a human touch for tomorrow’s growth',
     image: '/assets/img/AI Developer.png',
     intro: 'Stay ahead with our AI-powered solutions: from content creation to automations, search optimization, and digital protection. We blend cutting-edge AI with human creativity to future-proof your brand.',
     description: 'Our AI & Future-Ready Solutions bundle includes AI-Based Content Creation, AI Automations, AI SEO/GEO/AEO, and Content Ownership & Protection. Explore each service to see how we can help you scale and protect your brand.',
@@ -159,7 +159,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'graphic-designing',
     title: 'Graphic Designing',
-    tagline: 'Designs so bold that your brand never whispers, it SHOUTS.',
+    tagline: 'Designs so bold that your brand never whispers, it SHOUTS',
   image: '/assets/img/Graphic design.png',
     intro: 'Our graphic design services build a strong visual identity that not only looks great but also makes your brand instantly recognizable and trustworthy. We don\'t just create assets; we craft a visual language that speaks directly to your audience, turning first glances into lasting connections.',
     description: 'From logos to full-fledged brand kits, our designs ensure your brand stands out with consistency and clarity across all platforms.',
@@ -195,7 +195,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'video-editing',
     title: 'Video Editing',
-    tagline: 'Story that moves your audience.',
+    tagline: 'Story that moves your audience',
     image: '/assets/img/Video editing.png',
     intro: 'We bring your stories to life with professional video content that captivates and moves your audience. From quick social clips to corporate films, we make sure your message is seen and remembered.',
     description: 'Video is the future of digital engagement. Our edits ensure your brand communicates effectively through high-quality storytelling.',
@@ -311,7 +311,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'influencer-marketing',
     title: 'Influencer Marketing & PR',
-    tagline: 'Collaborations that click. PR that puts you on the map.',
+    tagline: 'Collaborations that click PR that puts you on the map',
     image: '/assets/img/Influencer Marketer.png.png',
     intro: 'We help you build credibility with authentic partnerships and secure impactful PR placements.',
     description: 'From nano to mega influencers, we identify, connect, and manage collaborations that align with your brand\'s values.',
@@ -347,7 +347,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'ugc',
     title: 'UGC & Creator Commerce',
-    tagline: 'Real voices, real growth.',
+    tagline: 'Real voices, real growth',
     image: '/assets/img/Tech Specialist.png',
     intro: 'We turn your loyal customers into brand advocates with authentic content and commerce strategies.',
     description: 'UGC performs better than branded ads because it\'s organic and relatable. We specialize in scaling this type of content for performance marketing.',
@@ -383,7 +383,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'performance-marketing',
     title: 'Performance Marketing',
-    tagline: 'Where every click counts.',
+    tagline: 'Where every click counts',
     image: '/assets/img/Perfornmence and growth.png',
     intro: 'We design data-driven campaigns that maximize ROI and turn traffic into profit.',
     description: 'Our media buying strategies across Google, Meta, and other platforms ensure you get measurable results, not just vanity metrics.',
@@ -419,7 +419,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'cro',
     title: 'CRO & Analytics Hub',
-    tagline: 'Conversions aren\'t luck—they\'re strategy.',
+    tagline: 'Conversions aren\'t luck—they\'re strategy',
     image: '/assets/img/Social & Community Growth.png',
     intro: 'We analyze funnels and fix leaks to maximize conversions.',
     description: 'CRO ensures every visitor has the highest chance of converting into a customer. It\'s science + psychology.',
@@ -455,7 +455,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'whatsapp-marketing',
     title: 'WhatsApp Marketing',
-    tagline: 'The fastest way to your customers\' hearts.',
+    tagline: 'The fastest way to your customers\' hearts',
     image: '/assets/img/Whatsapp marketer (2).png',
     intro: 'We create high-impact, automated campaigns on WhatsApp to drive sales directly.',
     description: 'With over 2B users, WhatsApp is the most personal platform to connect with your audience.',
@@ -527,7 +527,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'ai-automations',
     title: 'AI Automations',
-    tagline: 'AI that works while you sleep.',
+    tagline: 'AI that works while you sleep',
     image: '/assets/img/aiautomation.png',
     intro: 'We build automations that streamline operations and customer journeys.',
     description: 'Customer journey automations that nurture leads 24/7 while you focus on growing your business.',
@@ -563,7 +563,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'ai-seo',
     title: 'AI SEO, GEO, AEO',
-    tagline: 'Protect your brand in the AI landscape.',
+    tagline: 'Protect your brand in the AI landscape',
     image: '/assets/img/aiautomation.png',
     intro: 'We optimize your content for AI search platforms and traditional SEO.',
     description: 'Ensure your brand visibility across Google, Bing, ChatGPT, Gemini, and other AI-driven platforms.',
@@ -599,7 +599,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'content-ownership',
     title: 'Content Ownership',
-    tagline: 'Your invisible shield against AI misuse.',
+    tagline: 'Your invisible shield against AI misuse',
     image: '/assets/img/aiautomation.png',
     intro: 'We protect your content from misuse and ensure proper attribution.',
     description: 'Proactive shield against AI misuse of your content. Ensure attribution and recognition in the AI era.',
@@ -635,7 +635,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'ui-ux-branding',
     title: 'Design (UI/UX & Branding)',
-    tagline: 'Designing experiences, not just screens.',
+    tagline: 'Designing experiences, not just screens',
     image: '/assets/img/uidesign.png',
     intro: 'We create seamless, stunning experiences that align with your brand.',
     description: 'From wireframes to final designs, we ensure every touchpoint reflects your brand\'s personality and drives user engagement.',

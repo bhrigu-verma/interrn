@@ -14,7 +14,7 @@ const webapp_development_data: DataType[] = [
     id: 'One',
     emoji: '',
     title: "Design (UI/UX & Branding)",
-    description: `“Designing experiences, not just screens.”`,
+    description: `“Designing experiences, not just screens”`,
     link: "/services/design-ui-ux-branding"
   },
   {
