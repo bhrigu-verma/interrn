@@ -31,7 +31,7 @@ const services: ServiceItem[] = [
 // Service taglines mapping
 const serviceTaglines: Record<string, string> = {
   'AI-Based Content Creation': 'We don\'t just create content, we craft experiences that make your brand unforgettable.',
-  'Social Media Management': '',
+  'Social Media Management': 'Grow your brand and community with authentic engagement.',
   'Performance Marketing': 'Where every click counts.',
   'WhatsApp Marketing': 'The fastest way to your customers\' hearts.',
   'Content Ownership': 'Your invisible shield against AI misuse',
@@ -165,6 +165,8 @@ const ServiceHomeOneExtended = ({ compact = false, hideHeading = false }: Props)
                       item.title === 'Development (Coding & Technology)' ? '/services/development-coding-technology' :
                       '/service'
                     }>{item.title}</Link></h2>
+                      {/* Add tagline below heading for Social Media Management section */}
+                      {item.title === 'Social Media Management'}
                     {/* Custom content for Content Ownership section removed, only tagline will show as tagline */}
                     {serviceTaglines[item.title] && (
                       <p className="cs_card_tagline">{serviceTaglines[item.title]}</p>

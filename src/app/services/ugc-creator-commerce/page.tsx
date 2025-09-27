@@ -6,7 +6,7 @@ import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import ServiceDetailTemplate from '@/components/service/ServiceDetailTemplate';
 import ServiceFAQ from '@/components/service/ServiceFAQ';
-import { socialCommunityGrowthFAQs } from '@/data/service_faqs';
+import { ugcCreatorCommerceFAQs } from '@/data/service_faqs';
 
 export default function Page() {
   return (
@@ -42,7 +42,7 @@ export default function Page() {
                 }
               ]}
             />
-            <ServiceFAQ faqs={socialCommunityGrowthFAQs.slice(6, 9)} />
+            <ServiceFAQ faqs={ugcCreatorCommerceFAQs} />
           </main>
           <FooterOne />
         </div>

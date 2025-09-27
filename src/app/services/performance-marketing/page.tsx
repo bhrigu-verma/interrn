@@ -22,8 +22,8 @@ export default function Page() {
               description="Every click, every ad, and every penny matters. We use data-driven strategies to maximize your ROI, so you can stop guessing and start growing. Our team turns traffic into profit and helps you achieve your business goals with precision."
               sections={[
                 {
-                  title: "Channels",
-                  content: ['Meta', 'Google', 'LinkedIn', 'YouTube', 'Programmatic display']
+                  title: "We run Targeted Ad Campaigns on: ",
+                  content: ['Meta', 'Google', 'LinkedIn',  'Programmatic display','YouTube and more']
                 },
                 {
                   title: "Optimization stack",

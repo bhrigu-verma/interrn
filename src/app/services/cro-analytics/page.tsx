@@ -10,7 +10,7 @@ import AboutHomeFour from "@/components/about/AboutHomeFour";
 const croAnalyticsData = {
   title: "CRO & Analytics Hub",
   tagline: "Conversions aren't luck—they're strategy.",
-  image: "/assets/img/results.jpg",
+  image: "/assets/img/seo.png",
   intro: "We analyze funnels and fix leaks to maximize conversions.",
   description:
     "CRO ensures every visitor has the highest chance of converting into a customer. It's science + psychology.",
