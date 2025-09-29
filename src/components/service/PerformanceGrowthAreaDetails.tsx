@@ -28,7 +28,7 @@ const performance_growth_data: DataType[] = [
     id: '3',
     emoji: '',
     title: "Influencer Marketing & PR",
-    description: `Collaborations that click and PR that puts you on the map`,
+    description: `Collaborations that click, PR that puts you on the map`,
     link: '/services/influencer-marketing'
   },
   {

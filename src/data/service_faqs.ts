@@ -202,7 +202,7 @@ export const designUiUxBrandingFAQs = [
   }
 ];
 
-// 15. Development (Coding & Technology)
+// 15. Web development
 export const developmentCodingTechnologyFAQs = [
   {
     question: "How long does it take to build a website?",

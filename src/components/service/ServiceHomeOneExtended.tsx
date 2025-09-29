@@ -15,7 +15,7 @@ const services: ServiceItem[] = [
   { id: 3, title: 'Performance Marketing', image: '/assets/img/performancemarketing.png' },
   { id: 4, title: 'WhatsApp Marketing', image: '/assets/img/Whatsapp marketer (2).png' },
   { id: 5, title: 'Content Ownership', image: '/assets/img/aiautomation.png' },
-  { id: 6, title: 'Development (Coding & Technology)', image: '/assets/img/Web Developer.png' },
+  { id: 6, title: 'Web development', image: '/assets/img/Web Developer.png' },
   { id: 7, title: 'ONDC & Retail Media Operations', image: '/assets/img/ONDC.png' },
   { id: 8, title: 'Design (UI/UX & Branding)', image: '/assets/img/uidesign.png' },
   { id: 9, title: 'Video Editing', image: '/assets/img/Video editing.png' },
@@ -35,13 +35,13 @@ const serviceTaglines: Record<string, string> = {
   'Performance Marketing': 'Where every click counts',
   'WhatsApp Marketing': 'The fastest way to your customers\' hearts',
   'Content Ownership': 'Your invisible shield against AI misuse',
-  'Development (Coding & Technology)': 'Websites that work as hard as you do.',
+  'Web development': 'Websites that work as hard as you do.',
   'ONDC & Retail Media Operations': 'Retail ads that deliver real sales.',
   'Design (UI/UX & Branding)': 'Designing experiences, not just screens',
   'Video Editing': 'Story that moves your audience',
   'Graphic Designing': 'Designs so bold that your brand never whispers, it SHOUTS.',
-  'Copywriting': 'From captions to campaigns—we write it all ',
-  'Influencer Marketing & PR': 'Collaborations that click',
+  'Copywriting': 'From captions to campaigns we write it all ',
+  'Influencer Marketing & PR': 'Collaborations that click, PR that puts you on the map',
   'UGC & Creator Commerce': 'Real voices, real growth',
   'CRO & Analytics Hub': 'Conversions aren\'t luck - they\'re strategy.',
   'AI Automations': 'AI that works while you sleep',
@@ -162,7 +162,7 @@ const ServiceHomeOneExtended = ({ compact = false, hideHeading = false }: Props)
                       item.title === 'AI Automations' ? '/services/ai-automations' :
                       item.title === 'Web & App Development with Custom Solutions' ? '/services/web-app-custom-solutions' :
                       item.title === 'Design (UI/UX & Branding)' ? '/services/design-ui-ux-branding' :
-                      item.title === 'Development (Coding & Technology)' ? '/services/development-coding-technology' :
+                      item.title === 'Web development' ? '/services/web-development' :
                       '/service'
                     }>{item.title}</Link></h2>
                       {/* Add tagline below heading for Social Media Management section */}

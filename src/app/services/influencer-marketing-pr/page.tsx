@@ -23,11 +23,10 @@ export default function Page() {
           <main>
             <ServiceDetailTemplate
               title="Influencer Marketing & PR"
-              tagline="Collaborations that click"
+              tagline="Collaborations that click, PR that puts you on the map"
               image="/assets/img/Influencer Marketer.png"
               intro=" In a world full of advertising noise, we help you build trust and credibility by partnering with the right voice"
-              description=" We go beyond simple collaborations to create authentic partnerships and secure media placements that put your brand on the map and in front of the right audience.
-"
+              description="Connect with your audience through strategic influencer partnerships and PR initiatives that build authentic brand awareness and trust."
               sections={[
                 {
                   title: "What we handle",
@@ -53,7 +52,7 @@ export default function Page() {
                   ]
                 }
               ]}
-              cta="Build authentic Conversations"
+              cta="Start building authentic connections with your audience today."
             />
             <ServiceFAQ faqs={influencerMarketingFAQs} />
           </main>

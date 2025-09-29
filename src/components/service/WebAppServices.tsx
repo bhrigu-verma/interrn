@@ -17,7 +17,7 @@ const webapp_development_data: DataType[] = [
   {
     id: 'Two',
   emoji: '',
-    title: "Development (Coding & Technology)",
+    title: "Web development",
     description: `Websites that work as hard as you do. Once designs are locked, our developers bring them to life with robust, scalable code. We ensure speed, security, and performance for every platform - from simple websites to complex applications.`,
   },
   {

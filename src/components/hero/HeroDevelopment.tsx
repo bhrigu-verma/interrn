@@ -9,7 +9,7 @@ interface DataType {
 }
 
 const hero_development: DataType = {
-  title: "Development (Coding & Technology)",
+  title: "Web development",
   description: `Once the designs are locked, our developers bring them to life with robust, scalable code. We ensure speed, security, and performance for every platform. From web applications to mobile apps and enterprise systems, we build technology that drives your business forward.`,
   features: [
     `🌐 Website development (corporate, e-commerce, landing pages)`,

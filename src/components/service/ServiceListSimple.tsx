@@ -24,7 +24,7 @@ const services: ServiceItem[] = [
   { id: 13, title: 'AI Automations', image: '/assets/img/automation.png' },
   { id: 14, title: 'Web & App Development with Custom Solutions', image: '/assets/img/Web Developer.png' },
   { id: 15, title: 'Design (UI/UX & Branding)', image: '/assets/img/design_banner.jpg' },
-  { id: 16, title: 'Development (Coding & Technology)', image: '/assets/img/modern_digital_need.jpg' },
+  { id: 16, title: 'Web development', image: '/assets/img/modern_digital_need.jpg' },
 ];
 
 const ServiceListSimple = () => {

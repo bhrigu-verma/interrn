@@ -10,7 +10,7 @@ interface DataType {
 
 const hero_webapp_development: DataType = {
   title: "Web & App Development",
-  description: `Websites and apps that work as hard as you do. We design and develop fast, scalable, and secure digital platforms—tailored for your business growth. From e-commerce to custom solutions, our team delivers technology that performs and delights.`,
+  description: `Websites and apps that work as hard as you do. We design and develop fast, scalable, and secure digital platforms tailored for your business growth. From e-commerce to custom solutions, our team delivers technology that performs and delights.`,
   features: [
     `🎨 UI/UX & Branding – Designing experiences, not just screens`,
     `💻 Web & App Development – Robust, scalable, and secure code for every platform`,

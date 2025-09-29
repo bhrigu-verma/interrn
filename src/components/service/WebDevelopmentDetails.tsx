@@ -7,7 +7,7 @@ import ServiceFAQ from './ServiceFAQ';
 const WebDevelopmentDetails = () => {
   const webDevelopmentData: ServiceDetailData = {
     tag: "Development Excellence",
-    title: "Development (Coding & Technology)",
+    title: "Web development",
     tagline: "Websites that work as hard as you do.",
     description: "From corporate websites to enterprise systems, we code it all. We build platforms that are not only powerful but also scalable, secure, and designed for performance. Our focus is on clean code and robust architecture to ensure your digital asset works as hard as you do.",
   mascotImage: "/assets/img/Web Developer.png", // Mascot for web & app development

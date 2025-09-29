@@ -65,7 +65,7 @@ const HeroSocialGrowth = () => {
                   </li>
                   <li>
                     <strong><span style={{whiteSpace: 'nowrap'}}>2. Influencer Marketing and PR</span></strong><br />
-                    <span style={{whiteSpace: 'nowrap'}}>Collaborations that click and PR that puts you on the map</span>
+                    <span style={{whiteSpace: 'nowrap'}}>Collaborations that click, PR that puts you on the map</span>
                   </li>
                   <li>
                     <strong>3. UCG & Creator Commerce</strong><br />

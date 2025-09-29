@@ -8,7 +8,7 @@ const CopywritingDetails = () => {
   const copywritingData: ServiceDetailData = {
     tag: "Content Strategy",
     title: "Copywriting",
-    tagline: "From captions to campaigns—we write it all ",
+    tagline: "From captions to campaigns we write it all ",
     description: "In the digital world, words are your most valuable asset. We craft compelling copy that doesn't just inform-it connects, sells, and inspires. From the headline of your homepage to the final line of an email, we write with a purpose: to build your brand and drive your business forward.",
   mascotImage: "/assets/img/copywriting-mascot.png", // Use a mascot that visually represents copywriting
     services: [

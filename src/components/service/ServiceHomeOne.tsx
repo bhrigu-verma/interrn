@@ -68,8 +68,7 @@ const service_data: DataType[] = [
     id: 5,
     title: `Web, App & Custom Development`,
     des: `1. Web Development<br/>
-2. Website & App Development<br/>
-3. Custom Software Development (CRM/ERP)`,
+2. Website & App Development`,
     link: `/services/web-app-development`
   },
   {
@@ -480,8 +479,8 @@ const ServiceHomeOne = () => {
               </Link>
             </div>
           </div>
-          <div className="cs_height_50 cs_height_lg_10"></div>
-          <div className="cs_card_1_list">
+          <div className="cs_height_100 cs_height_lg_30"></div>
+          <div className="cs_card_1_list" style={{marginBottom: '64px'}}>
             {service_data.map((item, i) => (
               <div key={i} className="cs_card cs_style_1 cs_color_1 anim_div_ShowDowns" style={{ position: 'relative', overflow: 'hidden' }}>
                 <div className="cs_card_left">

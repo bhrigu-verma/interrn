@@ -93,7 +93,7 @@ export const serviceDetailData: ServiceDetail[] = [
     title: 'ONDC & Retail Media Operations',
     tagline: 'Visibility + sales on every platform',
     image: '/assets/img/ONDC.png',
-    intro: 'Expand e‑commerce distribution and win more shelves. We manage listings, ads, and ops across marketplaces—including ONDC—so products stay discoverable and in‑stock.',
+    intro: 'Expand e‑commerce distribution and win more shelves. We manage listings, ads, and operations across marketplaces including ONDC so products stay discoverable and in‑stock.',
     description: 'Maximize your e-commerce presence across multiple platforms with comprehensive marketplace management and retail media optimization strategies.',
     sections: [
       {
@@ -231,7 +231,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'copywriting',
     title: 'Copywriting',
-    tagline: 'From captions to campaigns—we write it all ',
+    tagline: 'From captions to campaigns we write it all ',
     image: '/assets/img/copyright.png',
     intro: 'We craft compelling copy that informs, connects, and sells. From homepages to emails, we write with clarity and purpose to build your brand and drive business.',
     description: 'We create compelling content that triggers emotions, drives actions, and positions your brand as an authority.',
@@ -419,7 +419,7 @@ export const serviceDetailData: ServiceDetail[] = [
   {
     id: 'cro',
     title: 'CRO & Analytics Hub',
-    tagline: 'Conversions aren\'t luck—they\'re strategy',
+    tagline: 'Conversions aren\'t luck they\'re strategy',
     image: '/assets/img/Social & Community Growth.png',
     intro: 'We analyze funnels and fix leaks to maximize conversions.',
     description: 'CRO ensures every visitor has the highest chance of converting into a customer. It\'s science + psychology.',
@@ -669,8 +669,8 @@ export const serviceDetailData: ServiceDetail[] = [
     faqs: require('./service_faqs').creativesContentFAQs
   },
   {
-    id: 'development',
-    title: 'Development (Coding & Technology)',
+  id: 'web-development',
+    title: 'Web development',
     tagline: 'Websites that work as hard as you do.',
     image: '/assets/img/Tech Specialist.png',
     intro: 'We build scalable, secure, and performance-driven digital platforms.',
