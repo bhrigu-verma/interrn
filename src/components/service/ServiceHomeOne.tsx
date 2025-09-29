@@ -42,9 +42,9 @@ const service_data: DataType[] = [
   {
     id: 2,
     title: `Social & Community Growth`,
-  des: `1. Social Media Management<br/>
-2. Influencer Marketing and PR<br/>
-3. UGC & Creator Commerce`,
+    des: `1. <a href='/services/social-media-management'>Social Media Management</a><br/>
+2. <a href='/services/influencer-marketing-pr'>Influencer Marketing and PR</a><br/>
+3. <a href='/services/ugc-creator-commerce'>UGC & Creator Commerce</a>`,
     link: `/services/social-community-growth`
   },
   {

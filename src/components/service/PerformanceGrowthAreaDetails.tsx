@@ -27,13 +27,6 @@ const performance_growth_data: DataType[] = [
   {
     id: '3',
     emoji: '',
-    title: "Influencer Marketing & PR",
-    description: `Collaborations that click, PR that puts you on the map`,
-    link: '/services/influencer-marketing'
-  },
-  {
-    id: '4',
-    emoji: '',
     title: "UGC & Creator Commerce",
     description: `Turn every purchase into content that builds your brand`,
     link: '/services/ugc-creator-commerce'
